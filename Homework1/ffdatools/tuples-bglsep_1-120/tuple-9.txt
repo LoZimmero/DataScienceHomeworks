@@ -1,0 +1,2 @@
+1125629327 2005.09.01 R63-M0-NE C:J12 U01 2005-09-01-19.48.47.536725 R63-M0-NE C:J12 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0e): torus sender z- retransmission error was corrected
+1125629327 2005.09.01 R63-M0-NE C:J12 U01 2005-09-01-19.48.47.758064 R63-M0-NE C:J12 U01 RAS KERNEL FATAL rts panic! - stopping execution

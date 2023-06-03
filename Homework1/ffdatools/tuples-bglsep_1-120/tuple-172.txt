@@ -1,0 +1,1 @@
+1127640579 2005.09.25 R07-M0-N2 C:J10 U01 2005-09-25-02.29.39.313860 R07-M0-N2 C:J10 U01 RAS KERNEL FATAL machine check interrupt (bit=0x06): L3 major internal error

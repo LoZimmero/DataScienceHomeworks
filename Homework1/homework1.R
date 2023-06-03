@@ -1,15 +1,15 @@
 # Analisi dei dati di interarrivals.txt
 #install.packages("fmsb")
 library(fmsb)
-datasetOct <- read.delim("D:/Universita/Corsi/DataScience/DataScience_2022-23/Esercitazioni/Homework1/ffdatools/counts/tcount-bgloct_1.txt", header=FALSE)
-View(datasetOct)
+datasetOct <- read.delim("D:/Universita/Corsi/DataScience/DataScience_2022-23/Esercitazioni/Homeworks/Homework1/ffdatools/counts/tcount-bglsep_1.txt", header=FALSE)
+#View(datasetOct)
 
 plot ( datasetOct$V1, datasetOct$V2, col="red", xlim=c(0,500), ylim=c(0,600), type="ol",
        xlab="CWIN", ylab="count")
 # Da questo grafico ci piace CWIN=100
 
 
-interarrivals <- read.table("D:/Universita/Corsi/DataScience/DataScience_2022-23/Esercitazioni/Homework1/ffdatools/tuples-bgloct_1-100/interarrivals.txt", quote="\"", comment.char="")
+interarrivals <- read.table("D:/Universita/Corsi/DataScience/DataScience_2022-23/Esercitazioni/Homeworks/Homework1/ffdatools/tuples-bglsep_1-120/interarrivals.txt", quote="\"", comment.char="")
 View(interarrivals)
 
 

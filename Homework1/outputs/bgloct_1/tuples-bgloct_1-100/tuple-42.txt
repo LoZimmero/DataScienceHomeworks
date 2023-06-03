@@ -1,0 +1,1 @@
+1129098173 2005.10.11 R27-M1-N8 C:J10 U01 2005-10-11-23.22.53.212899 R27-M1-N8 C:J10 U01 RAS KERNEL FATAL machine check interrupt (bit=0x06): L3 major internal error

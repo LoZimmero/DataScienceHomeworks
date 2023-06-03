@@ -1,0 +1,2 @@
+1126388869 2005.09.10 R63-M0-N9 C:J05 U01 2005-09-10-14.47.49.178380 R63-M0-N9 C:J05 U01 RAS KERNEL FATAL external input interrupt (unit=0x03 bit=0x01): tree header with no target waiting
+1126388869 2005.09.10 R63-M0-N9 C:J05 U01 2005-09-10-14.47.49.408216 R63-M0-N9 C:J05 U01 RAS KERNEL FATAL rts panic! - stopping execution

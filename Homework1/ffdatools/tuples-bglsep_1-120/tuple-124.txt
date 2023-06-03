@@ -1,0 +1,4 @@
+1126716169 2005.09.14 R77-M0-N6 C:J03 U11 2005-09-14-09.42.49.621824 R77-M0-N6 C:J03 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x09): torus sender x+ retransmission error was corrected
+1126716169 2005.09.14 R77-M0-N6 C:J03 U11 2005-09-14-09.42.49.841082 R77-M0-N6 C:J03 U11 RAS KERNEL FATAL rts panic! - stopping execution
+1126716170 2005.09.14 R67-M1-N7 C:J15 U11 2005-09-14-09.42.50.603359 R67-M1-N7 C:J15 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0a): torus sender x- retransmission error was corrected
+1126716170 2005.09.14 R67-M1-N7 C:J15 U11 2005-09-14-09.42.50.874096 R67-M1-N7 C:J15 U11 RAS KERNEL FATAL rts panic! - stopping execution

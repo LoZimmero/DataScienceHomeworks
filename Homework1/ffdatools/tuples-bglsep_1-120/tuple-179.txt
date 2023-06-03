@@ -1,0 +1,2 @@
+1127834157 2005.09.27 R50-M1-NC I:J18 U11 2005-09-27-08.15.57.135558 R50-M1-NC I:J18 U11 RAS KERNEL FATAL MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed
+1127834157 2005.09.27 R00-M0-NC I:J18 U11 2005-09-27-08.15.57.141551 R00-M0-NC I:J18 U11 RAS KERNEL FATAL MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed
