@@ -1,0 +1,12 @@
+1130088160 2005.10.23 R30-M1-NF C:J17 U01 2005-10-23-10.22.40.693330 R30-M1-NF C:J17 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0e): torus sender z- retransmission error was corrected
+1130088160 2005.10.23 R30-M1-NF C:J17 U01 2005-10-23-10.22.40.925456 R30-M1-NF C:J17 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1130088161 2005.10.23 R30-M1-NF C:J13 U01 2005-10-23-10.22.41.293369 R30-M1-NF C:J13 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0a): torus sender x- retransmission error was corrected
+1130088161 2005.10.23 R10-M0-NE C:J05 U01 2005-10-23-10.22.41.410343 R10-M0-NE C:J05 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x09): torus sender x+ retransmission error was corrected
+1130088161 2005.10.23 R30-M1-NF C:J17 U11 2005-10-23-10.22.41.736419 R30-M1-NF C:J17 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0c): torus sender y- retransmission error was corrected
+1130088161 2005.10.23 R30-M1-NF C:J13 U01 2005-10-23-10.22.41.953149 R30-M1-NF C:J13 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1130088162 2005.10.23 R10-M0-NE C:J05 U01 2005-10-23-10.22.42.089865 R10-M0-NE C:J05 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1130088162 2005.10.23 R31-M1-N9 C:J15 U01 2005-10-23-10.22.42.995193 R31-M1-N9 C:J15 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1130088165 2005.10.23 R30-M1-NF C:J17 U11 2005-10-23-10.22.45.574228 R30-M1-NF C:J17 U11 RAS KERNEL FATAL rts panic! - stopping execution
+1130088165 2005.10.23 R30-M1-NF C:J16 U11 2005-10-23-10.22.45.689067 R30-M1-NF C:J16 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0b): torus sender y+ retransmission error was corrected
+1130088170 2005.10.23 R31-M1-N9 C:J15 U01 2005-10-23-10.22.50.283963 R31-M1-N9 C:J15 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1130088175 2005.10.23 R30-M1-NF C:J16 U11 2005-10-23-10.22.55.823444 R30-M1-NF C:J16 U11 RAS KERNEL FATAL rts panic! - stopping execution
