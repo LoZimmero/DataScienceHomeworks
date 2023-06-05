@@ -1,0 +1,24 @@
+1171162907 c242 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1171162908 c242 DEV +END HARDWARE ERROR STATE AT CPE
+1171162916 c242 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1171162916 c242 DEV +Platform PCI Component Error Info Section
+1171162916 c242 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1171162916 c242 DEV + Platform Specific Error Detail:
+1171163147 c242 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1171163171 c242 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1171163171 c242 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1171163380 c242 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1171163381 c242 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1171163381 c242 DEV + Platform Specific Error Detail:
+1171163381 c242 MEM + Mem Error Detail:
+1171163408 c242 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1171163461 c242 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1171163493 c242 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1171163493 c242 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1171163493 c242 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1171163526 c242 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1171163594 c242 DEV +Platform PCI Component Error Info Section
+1171163594 c242 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1171163594 c242 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1171163594 c242 DEV + Platform Specific Error Detail:
+1171163611 c242 DEV +BEGIN HARDWARE ERROR STATE AT CPE

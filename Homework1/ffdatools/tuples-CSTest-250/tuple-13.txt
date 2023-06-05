@@ -1,0 +1,30 @@
+1167676614 c846 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167676614 c846 DEV +Platform PCI Component Error Info Section
+1167676614 c846 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167676615 c846 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167676615 c846 DEV +Platform PCI Component Error Info Section
+1167676615 c846 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167676618 c846 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167676618 c846 DEV +Platform PCI Component Error Info Section
+1167676618 c846 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167676620 c846 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167676620 c846 DEV +Platform PCI Component Error Info Section
+1167676620 c846 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167676621 c846 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167676621 c846 DEV +Platform PCI Component Error Info Section
+1167676621 c846 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167676622 c846 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167676622 c846 DEV +Platform PCI Component Error Info Section
+1167676622 c846 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167676623 c846 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167676623 c846 DEV +END HARDWARE ERROR STATE AT CPE
+1167676623 c846 DEV +Platform PCI Component Error Info Section
+1167676623 c846 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167676624 c846 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167676624 c846 DEV +END HARDWARE ERROR STATE AT CPE
+1167676624 c846 DEV +Platform PCI Component Error Info Section
+1167676624 c846 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167676625 c846 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167676625 c846 DEV +END HARDWARE ERROR STATE AT CPE
+1167676625 c846 DEV +Platform PCI Component Error Info Section
+1167676625 c846 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x

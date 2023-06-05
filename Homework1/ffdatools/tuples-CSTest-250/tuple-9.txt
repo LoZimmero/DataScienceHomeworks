@@ -1,0 +1,215 @@
+1167667201 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667201 c238 DEV +Platform PCI Component Error Info Section
+1167667201 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667202 c238 DEV +Platform PCI Component Error Info Section
+1167667202 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667202 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667202 c238 DEV + Platform Specific Error Detail:
+1167667202 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667202 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667222 c238 DEV +Platform PCI Component Error Info Section
+1167667222 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667222 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667222 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667222 c238 MEM + Mem Error Detail:
+1167667224 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667224 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667224 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667226 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667226 c238 DEV +Platform PCI Component Error Info Section
+1167667226 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667226 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667227 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667227 c238 DEV +END HARDWARE ERROR STATE AT CPE
+1167667227 c238 DEV +Platform PCI Component Error Info Section
+1167667227 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667227 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667227 c238 DEV + Platform Specific Error Detail:
+1167667227 c238 MEM + Mem Error Detail:
+1167667227 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667227 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667228 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667228 c238 DEV +Platform PCI Component Error Info Section
+1167667229 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667229 c238 DEV +Platform PCI Component Error Info Section
+1167667229 c238 DEV +Platform Specific Error Info Section
+1167667229 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667229 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667229 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667229 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667229 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667229 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667229 c238 DEV + Platform Specific Error Detail:
+1167667229 c238 MEM + Mem Error Detail:
+1167667229 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667229 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667230 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667230 c238 DEV +END HARDWARE ERROR STATE AT CPE
+1167667230 c238 DEV +Platform PCI Component Error Info Section
+1167667230 c238 DEV +Platform Specific Error Info Section
+1167667230 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667230 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667230 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667230 c238 DEV + Platform Specific Error Detail:
+1167667230 c238 MEM + Mem Error Detail:
+1167667230 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667230 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667230 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667230 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667231 c238 DEV +Platform PCI Component Error Info Section
+1167667231 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667232 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667232 c238 DEV +Platform PCI Component Error Info Section
+1167667232 c238 DEV +Platform Specific Error Info Section
+1167667232 c238 MEM + Mem Error Detail:
+1167667232 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667232 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667233 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667233 c238 DEV +END HARDWARE ERROR STATE AT CPE
+1167667233 c238 DEV +Platform PCI Component Error Info Section
+1167667233 c238 DEV +Platform Specific Error Info Section
+1167667233 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667233 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667233 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667233 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667233 c238 DEV + Platform Specific Error Detail:
+1167667233 c238 MEM + Mem Error Detail:
+1167667233 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667233 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667234 c238 DEV +Platform PCI Component Error Info Section
+1167667234 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667287 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667288 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667288 c238 DEV +Platform PCI Component Error Info Section
+1167667312 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667312 c238 DEV +Platform PCI Component Error Info Section
+1167667312 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667313 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667313 c238 DEV +Platform PCI Component Error Info Section
+1167667313 c238 DEV +Platform Specific Error Info Section
+1167667313 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667313 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667313 c238 DEV + Platform Specific Error Detail:
+1167667313 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667313 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667347 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667347 c238 DEV +Platform PCI Component Error Info Section
+1167667347 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667348 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667348 c238 DEV +Platform PCI Component Error Info Section
+1167667348 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667348 c238 DEV + Platform Specific Error Detail:
+1167667348 c238 MEM + Mem Error Detail:
+1167667348 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667348 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667408 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667408 c238 DEV +Platform PCI Component Error Info Section
+1167667468 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667468 c238 DEV +Platform PCI Component Error Info Section
+1167667512 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667513 c238 DEV +Platform PCI Component Error Info Section
+1167667528 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667528 c238 DEV +Platform PCI Component Error Info Section
+1167667588 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667588 c238 DEV +Platform PCI Component Error Info Section
+1167667613 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667613 c238 DEV +Platform PCI Component Error Info Section
+1167667647 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667647 c238 DEV +Platform PCI Component Error Info Section
+1167667647 c238 DEV +Platform Specific Error Info Section
+1167667647 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667647 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667647 c238 DEV + Platform Specific Error Detail:
+1167667647 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667647 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667648 c238 DEV +Platform PCI Component Error Info Section
+1167667648 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667648 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667648 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667648 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667648 c238 MEM + Mem Error Detail:
+1167667648 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667648 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667707 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667707 c238 DEV +Platform PCI Component Error Info Section
+1167667707 c238 DEV +Platform Specific Error Info Section
+1167667707 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667707 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667707 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667707 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167667707 c238 DEV + Platform Specific Error Detail:
+1167667707 c238 MEM + Mem Error Detail:
+1167667707 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667707 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167667737 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667738 c238 DEV +Platform PCI Component Error Info Section
+1167667767 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667767 c238 DEV +Platform PCI Component Error Info Section
+1167667782 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667783 c238 DEV +Platform PCI Component Error Info Section
+1167667827 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667827 c238 DEV +Platform PCI Component Error Info Section
+1167667887 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667887 c238 DEV +Platform PCI Component Error Info Section
+1167667912 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667912 c238 DEV +Platform PCI Component Error Info Section
+1167667947 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167667947 c238 DEV +Platform PCI Component Error Info Section
+1167668007 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668007 c238 DEV +Platform PCI Component Error Info Section
+1167668008 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668008 c238 DEV +Platform PCI Component Error Info Section
+1167668068 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668068 c238 DEV +Platform PCI Component Error Info Section
+1167668128 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668128 c238 DEV +Platform PCI Component Error Info Section
+1167668135 c238 DEV +Platform PCI Component Error Info Section
+1167668135 c238 MEM + Mem Error Detail:
+1167668136 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668136 c238 DEV +Platform PCI Component Error Info Section
+1167668136 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668136 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668136 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668190 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668190 c238 DEV +Platform PCI Component Error Info Section
+1167668197 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668197 c238 DEV +Platform PCI Component Error Info Section
+1167668197 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668197 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668197 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668197 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668197 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167668197 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167668213 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668213 c238 DEV +Platform PCI Component Error Info Section
+1167668250 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668250 c238 DEV +Platform PCI Component Error Info Section
+1167668310 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668310 c238 DEV +Platform PCI Component Error Info Section
+1167668370 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668370 c238 DEV +Platform PCI Component Error Info Section
+1167668430 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668430 c238 DEV +Platform PCI Component Error Info Section
+1167668462 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668462 c238 DEV +Platform PCI Component Error Info Section
+1167668489 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668489 c238 DEV +Platform PCI Component Error Info Section
+1167668489 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668489 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668490 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668490 c238 DEV +Platform PCI Component Error Info Section
+1167668490 c238 DEV +Platform Specific Error Info Section
+1167668490 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668490 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668490 c238 DEV Component Info: Vendor Id =x x, Device Id =x x, Class Code =x x, Seg Bus Dev Func =x x x x x
+1167668490 c238 DEV + Platform Specific Error Detail:
+1167668490 c238 MEM + Mem Error Detail:
+1167668490 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167668490 c238 MEM Physical Address x, Address Mask: x, Node: x, Card: x, Module: x, Bank: x, Device: x, Row: x, Column: x,
+1167668507 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668507 c238 DEV +END HARDWARE ERROR STATE AT CPE
+1167668507 c238 DEV +Platform PCI Component Error Info Section
+1167668513 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668513 c238 DEV +Platform PCI Component Error Info Section
+1167668624 c238 DEV +BEGIN HARDWARE ERROR STATE AT CPE
+1167668624 c238 DEV +Platform PCI Component Error Info Section

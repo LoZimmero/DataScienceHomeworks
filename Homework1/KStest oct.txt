@@ -1,0 +1,39 @@
+> ks.test(r,predict(expfit))
+
+	Asymptotic two-sample Kolmogorov-Smirnov test
+
+data:  r and predict(expfit)
+D = 0.14286, p-value = 0.1325
+alternative hypothesis: two-sided
+
+> ks.test(r,predict(weifit))
+
+	Asymptotic two-sample Kolmogorov-Smirnov test
+
+data:  r and predict(weifit)
+D = 0.037594, p-value = 1
+alternative hypothesis: two-sided
+
+> ks.test(r,predict(hyperexp1))
+
+	Asymptotic two-sample Kolmogorov-Smirnov test
+
+data:  r and predict(hyperexp1)
+D = 0.067669, p-value = 0.921
+alternative hypothesis: two-sided
+
+> ks.test(r,predict(hyperexp2))
+
+	Asymptotic two-sample Kolmogorov-Smirnov test
+
+data:  r and predict(hyperexp2)
+D = 0.052632, p-value = 0.9928
+alternative hypothesis: two-sided
+
+> ks.test(r,predict(hyperexp3))
+
+	Asymptotic two-sample Kolmogorov-Smirnov test
+
+data:  r and predict(hyperexp3)
+D = 0.045113, p-value = 0.9993
+alternative hypothesis: two-sided

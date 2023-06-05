@@ -1,0 +1,4 @@
+1168107939 master DEV PCI: slot x:x.x has incorrect PCI cache line size of x bytes, correcting to x
+1168107939 master OTH PCI: slot x:x.x has incorrect PCI cache line size of x bytes, correcting to x
+1168107943 master NET connection down
+1168107991 master I-O hda: packet command error: error=x

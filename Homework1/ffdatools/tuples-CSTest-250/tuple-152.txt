@@ -1,0 +1,78 @@
+1168779853 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168779853 c550 I-O error: dev x:x, sector x
+1168779853 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168779853 c550 NET Additional sense indicates Mechanical positioning error
+1168779868 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168779868 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168779868 c550 NET Additional sense indicates Mechanical positioning error
+1168779883 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168779883 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168779898 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168779898 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168779912 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168779912 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168779912 c550 NET Additional sense indicates Mechanical positioning error
+1168779927 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168779927 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168779927 c550 NET Additional sense indicates Mechanical positioning error
+1168779942 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168779942 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168779942 c550 NET Additional sense indicates Mechanical positioning error
+1168779957 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168779957 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168779957 c550 NET Additional sense indicates Mechanical positioning error
+1168779972 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168779972 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168779987 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168779987 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168779987 c550 NET Additional sense indicates Mechanical positioning error
+1168780002 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780002 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780017 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780017 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780032 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780032 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780046 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780047 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780061 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780061 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780061 c550 NET Additional sense indicates Mechanical positioning error
+1168780076 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780076 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780091 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780091 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780106 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780106 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780121 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780121 c550 I-O error: dev x:x, sector x
+1168780121 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780136 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780136 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780302 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780302 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780317 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780317 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780332 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780332 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780332 c550 NET Additional sense indicates Mechanical positioning error
+1168780347 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780347 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780362 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780377 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780377 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780391 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780391 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780406 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780406 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780421 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780421 c550 NET Additional sense indicates Mechanical positioning error
+1168780436 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780436 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780436 c550 NET Additional sense indicates Mechanical positioning error
+1168780451 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780451 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x
+1168780451 c550 NET Additional sense indicates Mechanical positioning error
+1168780472 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780472 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Read (x) x x x x x x x x x
+1168780487 c550 I-O SCSI Error: (x:x:x) Status=x (CHECK CONDITION)
+1168780487 c550 I-O scsx: ERROR on channel x, id x, lun x, CDB: Write (x) x x x x x x x x x

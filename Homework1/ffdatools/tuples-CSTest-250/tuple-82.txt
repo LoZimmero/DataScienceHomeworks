@@ -1,0 +1,3 @@
+1168287345 c027 I-O hda: packet command error: error=x
+1168287585 c027 NET connection down
+1168287602 c027 I-O hda: packet command error: error=x

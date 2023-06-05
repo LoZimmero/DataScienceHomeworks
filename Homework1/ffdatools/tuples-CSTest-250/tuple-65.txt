@@ -1,0 +1,78 @@
+1168099802 master NET setting node state to down
+1168099802 master NET setting node state to down
+1168099802 master NET setting node state to down
+1168099802 master NET setting node state to down
+1168099802 master NET setting node state to down
+1168099802 master NET setting node state to down
+1168099802 master NET setting node state to down
+1168099802 master NET setting node state to down
+1168099802 master NET setting node state to down
+1168099802 master NET setting node state to down
+1168099802 master NET setting node state to down
+1168099802 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099803 master NET setting node state to down
+1168099806 master NET setting node state to down
+1168099806 master NET setting node state to down
+1168099806 master NET setting node state to down
+1168099806 master NET setting node state to down
+1168099806 master NET setting node state to down
+1168099806 master NET setting node state to down
+1168099806 master NET setting node state to down
+1168099807 master NET setting node state to down
+1168099807 master NET setting node state to down
+1168099807 master NET setting node state to down
+1168099807 master NET setting node state to down
+1168099807 master NET setting node state to down
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168099911 c450 I-O error, dev x:x (hda), sector x
+1168100004 master NET setting node state to down
+1168100005 master NET setting node state to down
+1168100005 master NET setting node state to down
+1168100005 master NET setting node state to down
+1168100005 master NET setting node state to down
+1168100005 master NET setting node state to down
+1168100005 master NET setting node state to down
+1168100005 master NET setting node state to down
+1168100005 master NET setting node state to down
