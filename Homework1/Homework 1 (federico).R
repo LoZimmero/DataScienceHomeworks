@@ -29,7 +29,7 @@ title(main = "Variation in CWIN - October")
 pathsept<- "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-bglsep_1-120/interarrivals.txt"
 pathoct<- "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-bgloct_1-100/interarrivals.txt"
 
-interarrivals<-read.delim(pathoct,header = FALSE)
+interarrivals<-read.delim(pathsept,header = FALSE)
 
 #Calkcolo ecdf
 TTF<-ecdf(interarrivals$V1)
@@ -93,4 +93,41 @@ ks.test(r,predict(hyperexp3))
 
 ### Analisi su interarrivals
 
+# Calcola le statistiche descrittive
+summary(interarrivals$V1)
 
+# Calcola la media
+mean_time <- mean(interarrivals$V1)
+
+# Calcola la mediana
+median_time <- median(interarrivals$V1)
+
+# Calcola la deviazione standard
+sd_time <- sd(interarrivals$V1)
+
+# Crea un istogramma con più bin
+hist(interarrivals$V1, breaks = 30, main = "Interarrival times - September",freq = FALSE,
+     xlab = "Interarrival Time (seconds)",
+     col = "lightblue", border = "black")
+lines(density(interarrivals$V1), col="red", lwd=2)
+
+# Crea un boxplot
+boxplot(interarrivals$V1, main = "Interarrival Times - September",boxwex=0.4,
+        ylab = "Interarrival Time (seconds)", col = "lightblue",
+        names = c("Interarrivals"))
+
+# Aggiungi i valori al boxplot
+text(1, mean_time, paste("Mean =", round(mean_time, 2)), adj = c(0,1.5))
+text(1, median_time, paste("Median =", round(median_time, 2)), adj = c(0, -1.5))
+text(1, max(interarrivals$V1), paste("Max =", max(interarrivals$V1)), adj = c(0, -1.5))
+text(1, min(interarrivals$V1), paste("Min =", min(interarrivals$V1)), adj = c(0, 1.5))
+
+# Crea un grafico della distribuzione con i valori di tendenza centrale
+plot(density(interarrivals$V1), main = "Interarrival times distribution - October",
+     xlab = "Interarrival Time (seconds)")
+abline(v = mean_time, col = "red", lwd = 2)  # Media
+abline(v = median_time, col = "blue", lwd = 2)  # Mediana
+
+# Aggiungi una legenda
+legend("topright", legend = c("Mean", "Median"),
+       col = c("red", "blue"), lwd = 2)
