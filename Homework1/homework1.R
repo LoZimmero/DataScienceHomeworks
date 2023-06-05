@@ -1,7 +1,11 @@
 # Analisi dei dati di interarrivals.txt
 #install.packages("fmsb")
+
+CURR_FILE_PATH <- getwd()
+FFDATOOLS <- paste(CURR_FILE_PATH,"/Homework1/ffdatools", sep="", collapse=NULL)
+
 library(fmsb)
-datasetOct <- read.delim("D:/Universita/Corsi/DataScience/DataScience_2022-23/Esercitazioni/Homeworks/Homework1/ffdatools/counts/tcount-bglsep_1.txt", header=FALSE)
+datasetOct <- read.delim(paste(FFDATOOLS,"/counts/tcount-bglsep_1",sep="", collapse=NULL), header=FALSE)
 #View(datasetOct)
 
 plot ( datasetOct$V1, datasetOct$V2, col="red", xlim=c(0,500), ylim=c(0,600), type="ol",
