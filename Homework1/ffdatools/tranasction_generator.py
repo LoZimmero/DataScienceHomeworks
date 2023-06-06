@@ -34,10 +34,10 @@ def main(args: Namespace):
 
         node_set = set()
         for line in lines:
-            node_set.add(str(encoded_nodes_dict.get(line.split(' ')[2].strip())))
-            #node_set.add(line.split(' ')[2].strip())
+            #node_set.add(str(encoded_nodes_dict.get(line.split(' ')[2].strip())))
+            node_set.add(line.split(' ')[2].strip())
 
-        output.write(','.join(node_set) + '\n')
+        output.write(','.join(node_set) + " FILE: "+file +'\n')
     
     output.close()
 

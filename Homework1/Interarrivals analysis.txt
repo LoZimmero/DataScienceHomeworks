@@ -1,0 +1,6 @@
+[1] "Summary for September"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    139    1192    4676   12668   14604  141067 
+[1] "Summary for October"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    115    2157    8835   19697   26328  126877 
