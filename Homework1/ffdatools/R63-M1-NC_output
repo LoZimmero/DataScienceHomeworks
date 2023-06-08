@@ -1,0 +1,497 @@
+1125575389 2005.09.01 R63-M1-NC I:J18 U11 2005-09-01-04.49.49.706467 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125575389 2005.09.01 R63-M1-NC I:J18 U01 2005-09-01-04.49.49.778785 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125665494 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-05.51.34.180030 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/access) failed: No such file or directory
+1125665494 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-05.51.34.206169 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/access) failed: No such file or directory
+1125665564 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-05.52.44.347149 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/access) failed: No such file or directory
+1125665564 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-05.52.44.388328 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/access) failed: No such file or directory
+1125665634 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-05.53.54.584927 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/brk) failed: No such file or directory
+1125665634 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-05.53.54.608053 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/brk) failed: No such file or directory
+1125665704 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-05.55.04.979593 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chdir) failed: No such file or directory
+1125665705 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-05.55.05.122901 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chdir) failed: No such file or directory
+1125665775 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-05.56.15.097972 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chdir) failed: No such file or directory
+1125665775 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-05.56.15.130990 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chdir) failed: No such file or directory
+1125665838 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-05.57.18.675356 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chdir) failed: No such file or directory
+1125665838 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-05.57.18.771512 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chdir) failed: No such file or directory
+1125665915 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-05.58.35.133114 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chmod) failed: No such file or directory
+1125665915 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-05.58.35.193254 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chmod) failed: No such file or directory
+1125665978 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-05.59.38.501332 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chmod) failed: No such file or directory
+1125665978 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-05.59.38.599964 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chmod) failed: No such file or directory
+1125666048 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.00.48.667906 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chown) failed: No such file or directory
+1125666048 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.00.48.743021 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/chown) failed: No such file or directory
+1125666125 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.02.05.883120 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/close) failed: No such file or directory
+1125666125 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.02.05.938829 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/close) failed: No such file or directory
+1125666196 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.03.16.147703 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/close) failed: No such file or directory
+1125666196 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.03.16.202654 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/close) failed: No such file or directory
+1125666266 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.04.26.391945 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/dup2) failed: No such file or directory
+1125666266 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.04.26.505031 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/dup2) failed: No such file or directory
+1125666336 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.05.36.269597 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/dup2) failed: No such file or directory
+1125666336 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.05.36.296114 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/dup2) failed: No such file or directory
+1125666399 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.06.39.943925 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/dup2) failed: No such file or directory
+1125666400 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.06.40.047200 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/dup2) failed: No such file or directory
+1125666469 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.07.49.753606 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/dup2) failed: No such file or directory
+1125666469 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.07.49.818137 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/dup2) failed: No such file or directory
+1125666540 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.09.00.120148 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/exit) failed: No such file or directory
+1125666540 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.09.00.234333 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/exit) failed: No such file or directory
+1125666610 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.10.10.961605 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/fstat) failed: No such file or directory
+1125666611 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.10.11.011408 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/fstat) failed: No such file or directory
+1125666680 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.11.20.423021 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/fstat) failed: No such file or directory
+1125666680 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.11.20.476524 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/fstat) failed: No such file or directory
+1125666750 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.12.30.806343 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/getgid) failed: No such file or directory
+1125666750 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.12.30.899688 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/getgid) failed: No such file or directory
+1125666821 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.13.41.116290 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/getrusage) failed: No such file or directory
+1125666821 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.13.41.139809 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/getrusage) failed: No such file or directory
+1125666891 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.14.51.434090 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/getrusage) failed: No such file or directory
+1125666891 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.14.51.493162 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/getrusage) failed: No such file or directory
+1125666962 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.16.02.109156 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/lchown) failed: No such file or directory
+1125666962 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.16.02.161251 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/lchown) failed: No such file or directory
+1125667032 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.17.12.399124 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/llseek) failed: No such file or directory
+1125667032 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.17.12.469474 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/llseek) failed: No such file or directory
+1125667109 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.18.29.918534 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/lstat) failed: No such file or directory
+1125667109 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.18.29.940972 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/lstat) failed: No such file or directory
+1125667180 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.19.40.216998 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/mkdir) failed: No such file or directory
+1125667180 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.19.40.314544 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/mkdir) failed: No such file or directory
+1125667242 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.20.42.496507 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/mkdir) failed: No such file or directory
+1125667242 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.20.42.592174 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/mkdir) failed: No such file or directory
+1125667313 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.21.53.294440 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/mkdir) failed: No such file or directory
+1125667313 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.21.53.318078 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/mkdir) failed: No such file or directory
+1125667383 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.23.03.351625 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/read) failed: No such file or directory
+1125667383 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.23.03.419072 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/read) failed: No such file or directory
+1125667453 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.24.13.711131 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/read) failed: No such file or directory
+1125667453 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.24.13.765480 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/read) failed: No such file or directory
+1125667524 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.25.24.163228 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/readdir) failed: No such file or directory
+1125667524 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.25.24.308721 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/readdir) failed: No such file or directory
+1125667594 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.26.34.116594 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/readdir) failed: No such file or directory
+1125667594 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.26.34.144415 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/readdir) failed: No such file or directory
+1125667665 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.27.45.340945 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/rename) failed: No such file or directory
+1125667665 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.27.45.393245 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/rename) failed: No such file or directory
+1125667735 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.28.55.142231 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/rename) failed: No such file or directory
+1125667735 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.28.55.166660 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/rename) failed: No such file or directory
+1125667805 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.30.05.242992 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/signal) failed: No such file or directory
+1125667805 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.30.05.339048 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/signal) failed: No such file or directory
+1125667875 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.31.15.329874 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/signal) failed: No such file or directory
+1125667875 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.31.15.395470 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/signal) failed: No such file or directory
+1125667938 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.32.18.706614 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/signal) failed: No such file or directory
+1125667938 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.32.18.768536 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/signal) failed: No such file or directory
+1125668008 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.33.28.113704 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/signal) failed: No such file or directory
+1125668008 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.33.28.171475 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/signal) failed: No such file or directory
+1125668085 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.34.45.560242 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/unlink) failed: No such file or directory
+1125668085 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.34.45.669998 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/unlink) failed: No such file or directory
+1125668162 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.36.02.483145 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/utime) failed: No such file or directory
+1125668162 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.36.02.661172 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/utime) failed: No such file or directory
+1125668234 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-06.37.14.110354 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/utime) failed: No such file or directory
+1125668234 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-06.37.14.165794 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/utime) failed: No such file or directory
+1125690019 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-12.40.19.378911 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125690019 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-12.40.19.440436 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125692574 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-13.22.54.040627 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125692574 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-13.22.54.101174 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125694247 2005.09.02 R63-M1-NC I:J18 U11 2005-09-02-13.50.47.391880 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125694247 2005.09.02 R63-M1-NC I:J18 U01 2005-09-02-13.50.47.445055 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125759477 2005.09.03 R63-M1-NC I:J18 U01 2005-09-03-07.57.57.584829 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125759477 2005.09.03 R63-M1-NC I:J18 U11 2005-09-03-07.57.57.698534 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125781654 2005.09.03 R63-M1-NC I:J18 U01 2005-09-03-14.07.34.615574 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125781654 2005.09.03 R63-M1-NC I:J18 U11 2005-09-03-14.07.34.820384 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125783555 2005.09.03 R63-M1-NC I:J18 U11 2005-09-03-14.39.15.642919 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125783555 2005.09.03 R63-M1-NC I:J18 U01 2005-09-03-14.39.15.870856 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125784925 2005.09.03 R63-M1-NC I:J18 U11 2005-09-03-15.02.05.889345 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125784926 2005.09.03 R63-M1-NC I:J18 U01 2005-09-03-15.02.06.266905 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125871313 2005.09.04 R63-M1-NC I:J18 U11 2005-09-04-15.01.53.662180 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125871313 2005.09.04 R63-M1-NC I:J18 U01 2005-09-04-15.01.53.763678 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125879160 2005.09.04 R63-M1-NC I:J18 U11 2005-09-04-17.12.40.254016 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125879160 2005.09.04 R63-M1-NC I:J18 U01 2005-09-04-17.12.40.307403 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125879706 2005.09.04 R63-M1-NC I:J18 U11 2005-09-04-17.21.46.580196 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125879706 2005.09.04 R63-M1-NC I:J18 U01 2005-09-04-17.21.46.604736 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125888355 2005.09.04 R63-M1-NC I:J18 U11 2005-09-04-19.45.55.332412 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125888355 2005.09.04 R63-M1-NC I:J18 U01 2005-09-04-19.45.55.426359 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125945584 2005.09.05 R63-M1-NC I:J18 U11 2005-09-05-11.39.44.231755 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125945584 2005.09.05 R63-M1-NC I:J18 U01 2005-09-05-11.39.44.363208 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125947262 2005.09.05 R63-M1-NC I:J18 U11 2005-09-05-12.07.42.301615 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125947262 2005.09.05 R63-M1-NC I:J18 U01 2005-09-05-12.07.42.393865 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1125948899 2005.09.05 R63-M1-NC I:J18 U11 2005-09-05-12.34.59.517969 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1125948899 2005.09.05 R63-M1-NC I:J18 U01 2005-09-05-12.34.59.680266 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126003485 2005.09.06 R63-M1-NC I:J18 U11 2005-09-06-03.44.45.208328 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126003485 2005.09.06 R63-M1-NC I:J18 U01 2005-09-06-03.44.45.987651 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126007547 2005.09.06 R63-M1-NC I:J18 U11 2005-09-06-04.52.27.407234 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126007548 2005.09.06 R63-M1-NC I:J18 U01 2005-09-06-04.52.28.628898 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126009981 2005.09.06 R63-M1-NC I:J18 U11 2005-09-06-05.33.01.870848 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126009981 2005.09.06 R63-M1-NC I:J18 U01 2005-09-06-05.33.01.930025 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126010479 2005.09.06 R63-M1-NC I:J18 U11 2005-09-06-05.41.19.673864 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126010479 2005.09.06 R63-M1-NC I:J18 U01 2005-09-06-05.41.19.798150 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126027977 2005.09.06 R63-M1-NC I:J18 U11 2005-09-06-10.32.57.622101 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126027977 2005.09.06 R63-M1-NC I:J18 U01 2005-09-06-10.32.57.652558 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126034998 2005.09.06 R63-M1-NC I:J18 U01 2005-09-06-12.29.58.436725 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126051523 2005.09.06 R63-M1-NC I:J18 U11 2005-09-06-17.05.23.954837 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126051523 2005.09.06 R63-M1-NC I:J18 U01 2005-09-06-17.05.23.990463 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126190793 2005.09.08 R63-M1-NC I:J18 U01 2005-09-08-07.46.33.825893 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126190793 2005.09.08 R63-M1-NC I:J18 U11 2005-09-08-07.46.33.961330 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126192206 2005.09.08 R63-M1-NC I:J18 U11 2005-09-08-08.10.06.682043 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126192206 2005.09.08 R63-M1-NC I:J18 U01 2005-09-08-08.10.06.866234 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126198158 2005.09.08 R63-M1-NC I:J18 U11 2005-09-08-09.49.18.822317 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126198158 2005.09.08 R63-M1-NC I:J18 U01 2005-09-08-09.49.18.863807 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126202804 2005.09.08 R63-M1-NC I:J18 U11 2005-09-08-11.06.44.947272 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126218963 2005.09.08 R63-M1-NC I:J18 U11 2005-09-08-15.36.03.002728 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/yates/SWL_tests/BGL64k_SWL_tests_develop/MPI-PERF/IMB/perf_tests/IMB-MPI1.2MB: invalid or missing program image, No such file or directory
+1126218963 2005.09.08 R63-M1-NC I:J18 U01 2005-09-08-15.36.03.111426 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/yates/SWL_tests/BGL64k_SWL_tests_develop/MPI-PERF/IMB/perf_tests/IMB-MPI1.2MB: invalid or missing program image, No such file or directory
+1126323258 2005.09.09 R63-M1-NC I:J18 U11 2005-09-09-20.34.18.498666 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/p/gb2/greeno/_raptor.test/) failed: No such file or directory
+1126323258 2005.09.09 R63-M1-NC I:J18 U01 2005-09-09-20.34.18.588355 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/p/gb2/greeno/_raptor.test/) failed: No such file or directory
+1126323561 2005.09.09 R63-M1-NC I:J18 U11 2005-09-09-20.39.21.495030 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/greeno/_dev2/_pasci2/_hyperclaw.mf.rich/run/_jag_work/raptor.dev.new3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory
+1126323561 2005.09.09 R63-M1-NC I:J18 U01 2005-09-09-20.39.21.608349 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/greeno/_dev2/_pasci2/_hyperclaw.mf.rich/run/_jag_work/raptor.dev.new3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory
+1126324378 2005.09.09 R63-M1-NC I:J18 U11 2005-09-09-20.52.58.118425 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/greeno/_dev2/_pasci2/_hyperclaw.mf.rich/run/_jag_work/raptor.dev.new3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory
+1126324378 2005.09.09 R63-M1-NC I:J18 U01 2005-09-09-20.52.58.214528 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/greeno/_dev2/_pasci2/_hyperclaw.mf.rich/run/_jag_work/raptor.dev.new3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory
+1126324466 2005.09.09 R63-M1-NC I:J18 U11 2005-09-09-20.54.26.036788 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/greeno/_dev2/_pasci2/_hyperclaw.mf.rich/run/_jag_work/raptor.dev.new3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory
+1126324466 2005.09.09 R63-M1-NC I:J18 U01 2005-09-09-20.54.26.150928 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/greeno/_dev2/_pasci2/_hyperclaw.mf.rich/run/_jag_work/raptor.dev.new3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory
+1126351083 2005.09.10 R63-M1-NC I:J18 U11 2005-09-10-04.18.03.562088 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:43071: Link has been severed
+1126351083 2005.09.10 R63-M1-NC I:J18 U01 2005-09-10-04.18.03.661039 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:43072: Link has been severed
+1126476830 2005.09.11 R63-M1-NC I:J18 U11 2005-09-11-15.13.50.828862 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:56676: Link has been severed
+1126476830 2005.09.11 R63-M1-NC I:J18 U01 2005-09-11-15.13.50.912225 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:56677: Link has been severed
+1126539116 2005.09.12 R63-M1-NC I:J18 U11 2005-09-12-08.31.56.778318 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:41226: Link has been severed
+1126539116 2005.09.12 R63-M1-NC I:J18 U01 2005-09-12-08.31.56.856103 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:41228: Link has been severed
+1126610619 2005.09.13 R63-M1-NC I:J18 U11 2005-09-13-04.23.39.252778 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:56685: Link has been severed
+1126610619 2005.09.13 R63-M1-NC I:J18 U01 2005-09-13-04.23.39.341121 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:56686: Link has been severed
+1126626530 2005.09.13 R63-M1-NC I:J18 U11 2005-09-13-08.48.50.503276 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126626530 2005.09.13 R63-M1-NC I:J18 U01 2005-09-13-08.48.50.689758 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126627386 2005.09.13 R63-M1-NC I:J18 U11 2005-09-13-09.03.06.714142 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126627386 2005.09.13 R63-M1-NC I:J18 U01 2005-09-13-09.03.06.794382 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126639842 2005.09.13 R63-M1-NC I:J18 U11 2005-09-13-12.30.42.221567 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126639842 2005.09.13 R63-M1-NC I:J18 U01 2005-09-13-12.30.42.308178 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1126641187 2005.09.13 R63-M1-NC I:J18 U11 2005-09-13-12.53.07.889156 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : point /p/gb1
+1126641187 2005.09.13 R63-M1-NC I:J18 U01 2005-09-13-12.53.07.977278 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : point /p/gb1
+1127147551 2005.09.19 R63-M1-NC I:J18 U11 2005-09-19-09.32.31.620965 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/spelce1/UMT2K/umt2k/ckpt_umt2k_src/TEST/NEW_TEST) failed: No such file or directory
+1127147551 2005.09.19 R63-M1-NC I:J18 U01 2005-09-19-09.32.31.820716 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/spelce1/UMT2K/umt2k/ckpt_umt2k_src/TEST/NEW_TEST) failed: No such file or directory
+1127185846 2005.09.19 R63-M1-NC I:J18 U11 2005-09-19-20.10.46.069571 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/romio_tests) failed: No such file or directory
+1127185846 2005.09.19 R63-M1-NC I:J18 U01 2005-09-19-20.10.46.143536 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/romio_tests) failed: No such file or directory
+1127185915 2005.09.19 R63-M1-NC I:J18 U11 2005-09-19-20.11.55.713431 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/romio_tests) failed: No such file or directory
+1127185915 2005.09.19 R63-M1-NC I:J18 U01 2005-09-19-20.11.55.808524 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/romio_tests) failed: No such file or directory
+1127186132 2005.09.19 R63-M1-NC I:J18 U11 2005-09-19-20.15.32.684453 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/BGLc-ACCEPTANCE/MPI_IO_Func-ROMIO_testsuite/romio_tests) failed: No such file or directory
+1127186132 2005.09.19 R63-M1-NC I:J18 U01 2005-09-19-20.15.32.746614 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/BGLc-ACCEPTANCE/MPI_IO_Func-ROMIO_testsuite/romio_tests) failed: No such file or directory
+1127186195 2005.09.19 R63-M1-NC I:J18 U11 2005-09-19-20.16.35.453004 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/BGLc-ACCEPTANCE/MPI_IO_Func-ROMIO_testsuite/romio_tests) failed: No such file or directory
+1127186195 2005.09.19 R63-M1-NC I:J18 U01 2005-09-19-20.16.35.568819 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/BGLc-ACCEPTANCE/MPI_IO_Func-ROMIO_testsuite/romio_tests) failed: No such file or directory
+1127264138 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-17.55.38.552936 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/yates//bandwidth.rts: invalid or missing program image, No such file or directory
+1127264138 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-17.55.38.642786 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/yates//bandwidth.rts: invalid or missing program image, No such file or directory
+1127264199 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-17.56.39.848908 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory
+1127264199 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-17.56.39.888612 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory
+1127264268 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-17.57.48.877849 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory
+1127264268 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-17.57.48.916875 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory
+1127264332 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-17.58.52.868760 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory
+1127264332 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-17.58.52.909512 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory
+1127264407 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.00.07.136322 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory
+1127264407 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.00.07.237221 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory
+1127264480 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.01.20.304588 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/yates//broadcast.rts: invalid or missing program image, No such file or directory
+1127264480 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.01.20.353086 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/yates//broadcast.rts: invalid or missing program image, No such file or directory
+1127264549 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.02.29.184995 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/yates//broadcast.rts: invalid or missing program image, No such file or directory
+1127264549 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.02.29.226608 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/yates//broadcast.rts: invalid or missing program image, No such file or directory
+1127264626 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.03.46.465145 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/yates//broadcast.rts: invalid or missing program image, No such file or directory
+1127264626 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.03.46.580977 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/yates//broadcast.rts: invalid or missing program image, No such file or directory
+1127264845 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.07.25.781438 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/SWL/performance/MINIBEN//bandwidth.rts: invalid or missing program image, No such file or directory
+1127264845 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.07.25.913334 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/SWL/performance/MINIBEN//bandwidth.rts: invalid or missing program image, No such file or directory
+1127264906 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.08.26.270464 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/SWL/performance/MINIBEN//torus-latency.rts: invalid or missing program image, No such file or directory
+1127264906 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.08.26.313170 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/SWL/performance/MINIBEN//torus-latency.rts: invalid or missing program image, No such file or directory
+1127265006 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.10.06.098421 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/SWL/performance/MINIBEN//torus-latency.rts: invalid or missing program image, No such file or directory
+1127265006 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.10.06.702774 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/SWL/performance/MINIBEN//torus-latency.rts: invalid or missing program image, No such file or directory
+1127265056 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.10.56.590716 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265056 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.10.56.685411 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265110 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.11.50.277240 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265110 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.11.50.321536 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265177 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.12.57.908070 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265178 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.12.58.027757 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265251 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.14.11.063652 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265251 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.14.11.111635 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265324 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.15.24.906212 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265324 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.15.24.944541 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265392 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.16.32.645292 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265392 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.16.32.695904 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265458 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.17.38.719602 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265458 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.17.38.841866 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265553 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.19.13.186317 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265553 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.19.13.281623 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265603 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.20.03.148485 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265603 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.20.03.297698 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265672 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.21.12.906702 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265673 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.21.13.038515 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265744 2005.09.20 R63-M1-NC I:J18 U11 2005-09-20-18.22.24.891305 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127265744 2005.09.20 R63-M1-NC I:J18 U01 2005-09-20-18.22.24.999463 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory
+1127857386 2005.09.27 R63-M1-NC I:J18 U11 2005-09-27-14.43.06.214596 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/linpack2/xhpl_241_no_fold: invalid or missing program image, No such file or directory
+1127857386 2005.09.27 R63-M1-NC I:J18 U01 2005-09-27-14.43.06.379167 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/linpack2/xhpl_241_no_fold: invalid or missing program image, No such file or directory
+1127988048 2005.09.29 R63-M1-NC I:J18 U11 2005-09-29-03.00.48.884819 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:60018: Link has been severed
+1127988048 2005.09.29 R63-M1-NC I:J18 U01 2005-09-29-03.00.48.944367 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:60019: Link has been severed
+1127988340 2005.09.29 R63-M1-NC I:J18 U11 2005-09-29-03.05.40.964033 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:34113: Link has been severed
+1127988341 2005.09.29 R63-M1-NC I:J18 U01 2005-09-29-03.05.41.079213 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:34114: Link has been severed
+1128022821 2005.09.29 R63-M1-NC I:J18 U11 2005-09-29-12.40.21.496711 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:49825: Link has been severed
+1128022821 2005.09.29 R63-M1-NC I:J18 U01 2005-09-29-12.40.21.597878 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:49826: Link has been severed
+1128037207 2005.09.29 R63-M1-NC I:J18 U11 2005-09-29-16.40.07.423725 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/spelce1/HPCC_IBM/Urgent/FFTW/32) failed: No such file or directory
+1128037207 2005.09.29 R63-M1-NC I:J18 U01 2005-09-29-16.40.07.518394 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/spelce1/HPCC_IBM/Urgent/FFTW/32) failed: No such file or directory
+1128105731 2005.09.30 R63-M1-NC I:J18 U11 2005-09-30-11.42.11.088383 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:34360: Connection reset by peer
+1128105731 2005.09.30 R63-M1-NC I:J18 U01 2005-09-30-11.42.11.184414 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:34361: Link has been severed
+1128170274 2005.10.01 R63-M1-NC I:J18 U11 2005-10-01-05.37.54.041271 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/Gunnels/VNM64/vnm.rts: invalid or missing program image, Permission denied
+1128170274 2005.10.01 R63-M1-NC I:J18 U01 2005-10-01-05.37.54.195563 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/Gunnels/VNM64/vnm.rts: invalid or missing program image, Permission denied
+1128267113 2005.10.02 R63-M1-NC I:J18 U11 2005-10-02-08.31.53.155120 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/SWL/stability/DDCMD//ddcMDbglV: invalid or missing program image, Permission denied
+1128267113 2005.10.02 R63-M1-NC I:J18 U01 2005-10-02-08.31.53.267108 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/SWL/stability/DDCMD//ddcMDbglV: invalid or missing program image, Permission denied
+1128267269 2005.10.02 R63-M1-NC I:J18 U11 2005-10-02-08.34.29.602312 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:58651: Link has been severed
+1128267269 2005.10.02 R63-M1-NC I:J18 U01 2005-10-02-08.34.29.644189 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:58652: Link has been severed
+1128358730 2005.10.03 R63-M1-NC I:J18 U11 2005-10-03-09.58.50.903483 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:50973: Link has been severed
+1128358731 2005.10.03 R63-M1-NC I:J18 U01 2005-10-03-09.58.51.043781 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:50974: Link has been severed
+1128441134 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.14.988610 R63-M1-NC C:J06 U01 RAS KERNEL FATAL machine check interrupt (bit=0x06): L3 major internal error
+1128441135 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.15.142325 R63-M1-NC C:J06 U01 RAS KERNEL FATAL instruction address: 0x0000a374
+1128441135 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.15.329699 R63-M1-NC C:J06 U01 RAS KERNEL FATAL machine check status register: 0xa0000000
+1128441135 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.15.492663 R63-M1-NC C:J06 U01 RAS KERNEL FATAL summary...........................1
+1128441135 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.15.656924 R63-M1-NC C:J06 U01 RAS KERNEL FATAL instruction plb error.............0
+1128441135 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.15.820746 R63-M1-NC C:J06 U01 RAS KERNEL FATAL data read plb error...............1
+1128441135 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.15.985606 R63-M1-NC C:J06 U01 RAS KERNEL FATAL data write plb error..............0
+1128441136 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.16.112691 R63-M1-NC C:J06 U01 RAS KERNEL FATAL tlb error.........................0
+1128441136 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.16.345822 R63-M1-NC C:J06 U01 RAS KERNEL FATAL i-cache parity error..............0
+1128441136 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.16.561330 R63-M1-NC C:J06 U01 RAS KERNEL FATAL d-cache search parity error.......0
+1128441136 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.16.721220 R63-M1-NC C:J06 U01 RAS KERNEL FATAL d-cache flush parity error........0
+1128441136 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.16.876797 R63-M1-NC C:J06 U01 RAS KERNEL FATAL imprecise machine check...........0
+1128441137 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.17.039852 R63-M1-NC C:J06 U01 RAS KERNEL FATAL exception syndrome register: 0x01800000
+1128441137 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.17.198484 R63-M1-NC C:J06 U01 RAS KERNEL FATAL machine check: i-fetch......................0
+1128441137 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.17.485304 R63-M1-NC C:J06 U01 RAS KERNEL FATAL program interrupt: illegal instruction......0
+1128441138 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.18.058307 R63-M1-NC C:J06 U01 RAS KERNEL FATAL program interrupt: privileged instruction...0
+1128441139 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.19.186787 R63-M1-NC C:J06 U01 RAS KERNEL FATAL program interrupt: trap instruction.........0
+1128441141 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.21.530474 R63-M1-NC C:J06 U01 RAS KERNEL FATAL floating point operation....................1
+1128441145 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.25.961733 R63-M1-NC C:J06 U01 RAS KERNEL FATAL store operation.............................1
+1128441150 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.30.994451 R63-M1-NC C:J06 U01 RAS KERNEL FATAL data store interrupt caused by dcbf.........0
+1128441158 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.38.403676 R63-M1-NC C:J06 U01 RAS KERNEL FATAL data store interrupt caused by icbi.........0
+1128441164 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.44.329128 R63-M1-NC C:J06 U01 RAS KERNEL FATAL auxiliary processor.........................0
+1128441168 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.48.398691 R63-M1-NC C:J06 U01 RAS KERNEL FATAL program interrupt: unimplemented operation..0
+1128441170 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.50.612504 R63-M1-NC C:J06 U01 RAS KERNEL FATAL byte ordering exception.....................0
+1128441171 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.51.016199 R63-M1-NC C:J06 U01 RAS KERNEL FATAL program interrupt: imprecise exception......0
+1128441171 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.51.169331 R63-M1-NC C:J06 U01 RAS KERNEL FATAL program interrupt: fp cr update.............0
+1128441171 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.51.320729 R63-M1-NC C:J06 U01 RAS KERNEL FATAL program interrupt: fp compare...............0
+1128441171 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.51.472144 R63-M1-NC C:J06 U01 RAS KERNEL FATAL program interrupt: fp cr field .............0
+1128441171 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.51.618671 R63-M1-NC C:J06 U01 RAS KERNEL FATAL machine state register: 0x00003000
+1128441172 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.52.069366 R63-M1-NC C:J06 U01 RAS KERNEL FATAL wait state enable.................0
+1128441172 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.52.231925 R63-M1-NC C:J06 U01 RAS KERNEL FATAL critical input interrupt enable...0
+1128441172 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.52.382942 R63-M1-NC C:J06 U01 RAS KERNEL FATAL external input interrupt enable...0
+1128441172 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.52.531785 R63-M1-NC C:J06 U01 RAS KERNEL FATAL problem state (0=sup,1=usr).......0
+1128441172 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.52.684980 R63-M1-NC C:J06 U01 RAS KERNEL FATAL floating point instr. enabled.....1
+1128441172 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.52.836467 R63-M1-NC C:J06 U01 RAS KERNEL FATAL machine check enable..............1
+1128441172 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.52.985169 R63-M1-NC C:J06 U01 RAS KERNEL FATAL floating pt ex mode 0 enable......0
+1128441173 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.53.135533 R63-M1-NC C:J06 U01 RAS KERNEL FATAL debug wait enable.................0
+1128441173 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.53.284344 R63-M1-NC C:J06 U01 RAS KERNEL FATAL debug interrupt enable............0
+1128441173 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.53.440206 R63-M1-NC C:J06 U01 RAS KERNEL FATAL floating pt ex mode 1 enable......0
+1128441173 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.53.603190 R63-M1-NC C:J06 U01 RAS KERNEL FATAL instruction address space.........0
+1128441173 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.53.757584 R63-M1-NC C:J06 U01 RAS KERNEL FATAL data address space................0
+1128441173 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.53.913489 R63-M1-NC C:J06 U01 RAS KERNEL FATAL core configuration register: 0x00002000
+1128441174 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.54.070199 R63-M1-NC C:J06 U01 RAS KERNEL FATAL disable store gathering..................0
+1128441174 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.54.224325 R63-M1-NC C:J06 U01 RAS KERNEL FATAL disable apu instruction broadcast........0
+1128441174 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.54.373515 R63-M1-NC C:J06 U01 RAS KERNEL FATAL disable trace broadcast..................0
+1128441174 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.54.512039 R63-M1-NC C:J06 U01 RAS KERNEL FATAL guaranteed instruction cache block touch.0
+1128441174 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.54.630717 R63-M1-NC C:J06 U01 RAS KERNEL FATAL guaranteed data cache block touch........1
+1128441174 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.54.779368 R63-M1-NC C:J06 U01 RAS KERNEL FATAL force load/store alignment...............0
+1128441174 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.54.929400 R63-M1-NC C:J06 U01 RAS KERNEL FATAL icache prefetch depth....................0
+1128441175 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.55.084184 R63-M1-NC C:J06 U01 RAS KERNEL FATAL icache prefetch threshold................0
+1128441175 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.55.236102 R63-M1-NC C:J06 U01 RAS KERNEL FATAL L3 global control register: 0x001249f0
+1128441175 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.55.384860 R63-M1-NC C:J06 U01 RAS KERNEL FATAL start initialization.....................0
+1128441175 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.55.510776 R63-M1-NC C:J06 U01 RAS KERNEL FATAL start retagging..........................0
+1128441175 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.55.639215 R63-M1-NC C:J06 U01 RAS KERNEL FATAL start flushing...........................0
+1128441175 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.55.772877 R63-M1-NC C:J06 U01 RAS KERNEL FATAL start prefetching........................0
+1128441175 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.55.924493 R63-M1-NC C:J06 U01 RAS KERNEL FATAL disable speculative access...............0
+1128441176 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.56.076683 R63-M1-NC C:J06 U01 RAS KERNEL FATAL close EDRAM pages as soon as possible....0
+1128441176 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.56.231547 R63-M1-NC C:J06 U01 RAS KERNEL FATAL size of scratchpad portion of L3.........0 (0M)
+1128441176 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.56.385421 R63-M1-NC C:J06 U01 RAS KERNEL FATAL disable all access to cache directory....0
+1128441176 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.56.547341 R63-M1-NC C:J06 U01 RAS KERNEL FATAL write buffer commit threshold............2
+1128441176 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.56.709029 R63-M1-NC C:J06 U01 RAS KERNEL FATAL size of DDR we are caching...............1 (512M)
+1128441176 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.56.906109 R63-M1-NC C:J06 U01 RAS KERNEL FATAL prefetch depth for core 0................1
+1128441177 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.57.026052 R63-M1-NC C:J06 U01 RAS KERNEL FATAL prefetch depth for core 1................1
+1128441177 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.57.210797 R63-M1-NC C:J06 U01 RAS KERNEL FATAL prefetch depth for PLB slave.............1
+1128441177 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.57.372749 R63-M1-NC C:J06 U01 RAS KERNEL FATAL max number of outstanding prefetches.....7
+1128441177 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.57.534087 R63-M1-NC C:J06 U01 RAS KERNEL FATAL turn on hidden refreshes.................1
+1128441177 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.57.700974 R63-M1-NC C:J06 U01 RAS KERNEL FATAL disable write lines 2:4..................0
+1128441177 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.57.855884 R63-M1-NC C:J06 U01 RAS KERNEL FATAL L3 ecc control register: 00000000
+1128441178 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.58.011269 R63-M1-NC C:J06 U01 RAS KERNEL FATAL capture first directory correctable error address..0
+1128441178 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.58.168052 R63-M1-NC C:J06 U01 RAS KERNEL FATAL capture first directory uncorrectable error address..0
+1128441178 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.58.325019 R63-M1-NC C:J06 U01 RAS KERNEL FATAL capture first EDRAM correctable error address..0
+1128441178 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.58.484319 R63-M1-NC C:J06 U01 RAS KERNEL FATAL capture first EDRAM uncorrectable error address..0
+1128441178 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.58.641083 R63-M1-NC C:J06 U01 RAS KERNEL FATAL capture first EDRAM parity error address..0
+1128441178 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.58.801255 R63-M1-NC C:J06 U01 RAS KERNEL FATAL capture first DDR uncorrectable error address..0
+1128441178 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.58.938426 R63-M1-NC C:J06 U01 RAS KERNEL FATAL disable flagging of DDR UE's as major internal error.0
+1128441179 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.59.059946 R63-M1-NC C:J06 U01 RAS KERNEL FATAL L3 ecc status register: 00200000
+1128441179 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.59.215615 R63-M1-NC C:J06 U01 RAS KERNEL FATAL correctable error detected in directory 0......0
+1128441179 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.59.553626 R63-M1-NC C:J06 U01 RAS KERNEL FATAL correctable error detected in directory 1......0
+1128441179 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.59.706526 R63-M1-NC C:J06 U01 RAS KERNEL FATAL uncorrectable error detected in directory 0....0
+1128441179 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.59.826050 R63-M1-NC C:J06 U01 RAS KERNEL FATAL uncorrectable error detected in directory 1....0
+1128441179 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.52.59.994017 R63-M1-NC C:J06 U01 RAS KERNEL FATAL correctable error detected in EDRAM bank 0.....0
+1128441180 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.00.154593 R63-M1-NC C:J06 U01 RAS KERNEL FATAL correctable error detected in EDRAM bank 1.....0
+1128441180 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.00.315677 R63-M1-NC C:J06 U01 RAS KERNEL FATAL uncorrectable error detected in EDRAM bank 0...0
+1128441180 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.00.478449 R63-M1-NC C:J06 U01 RAS KERNEL FATAL uncorrectable error detected in EDRAM bank 1...0
+1128441180 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.00.642824 R63-M1-NC C:J06 U01 RAS KERNEL FATAL parity error in bank 0.........................0
+1128441180 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.00.802453 R63-M1-NC C:J06 U01 RAS KERNEL FATAL parity error in bank 1.........................0
+1128441180 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.00.962131 R63-M1-NC C:J06 U01 RAS KERNEL FATAL uncorrectable error detected in external DDR...1
+1128441181 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.01.120103 R63-M1-NC C:J06 U01 RAS KERNEL FATAL parity error in read queue 0...................0
+1128441181 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.01.279576 R63-M1-NC C:J06 U01 RAS KERNEL FATAL parity error in read queue 1...................0
+1128441181 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.01.435914 R63-M1-NC C:J06 U01 RAS KERNEL FATAL parity error in read queue PLB.................0
+1128441181 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.01.606184 R63-M1-NC C:J06 U01 RAS KERNEL FATAL parity error in write buffer...................0
+1128441181 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.01.814917 R63-M1-NC C:J06 U01 RAS KERNEL FATAL number of correctable errors detected in L3 directories...0
+1128441182 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.02.023451 R63-M1-NC C:J06 U01 RAS KERNEL FATAL interrupt threshold...0
+1128441182 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.02.183138 R63-M1-NC C:J06 U01 RAS KERNEL FATAL number of correctable errors detected in L3 EDRAMs........0
+1128441182 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.02.332339 R63-M1-NC C:J06 U01 RAS KERNEL FATAL interrupt threshold...0
+1128441182 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.02.490178 R63-M1-NC C:J06 U01 RAS KERNEL FATAL number of lines with parity errors written to L3 EDRAMs...0
+1128441182 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.02.644133 R63-M1-NC C:J06 U01 RAS KERNEL FATAL DDR machine check register: 0x00000000 0x00010000
+1128441182 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.02.806045 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory and bus summary...........................0
+1128441182 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.02.974204 R63-M1-NC C:J06 U01 RAS KERNEL FATAL command manager unit summary.....................0
+1128441183 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.03.136454 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory manager uncorrectable error...............1
+1128441183 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.03.290289 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory manager strobe gate.......................0
+1128441183 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.03.446510 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory manager address parity error..............0
+1128441183 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.03.604651 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory manager miscompare........................0
+1128441183 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.03.756021 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory manager address error.....................0
+1128441183 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.03.884916 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory manager store buffer parity...............0
+1128441184 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.04.054273 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory manager RMW buffer parity.................0
+1128441184 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.04.216077 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory manager refresh...........................0
+1128441184 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.04.377698 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory manager refresh counter timeout...........0
+1128441184 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.04.532601 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory manager refresh contention................0
+1128441184 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.04.689801 R63-M1-NC C:J06 U01 RAS KERNEL FATAL state machine....................................0
+1128441184 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.04.843193 R63-M1-NC C:J06 U01 RAS KERNEL FATAL memory manager / command manager address parity..0
+1128441184 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.04.999146 R63-M1-NC C:J06 U01 RAS KERNEL FATAL regctl scancom interface.........................0
+1128441185 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.05.159811 R63-M1-NC C:J06 U01 RAS KERNEL FATAL DDR failing info register: 0x8d041000
+1128441185 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.05.335581 R63-M1-NC C:J06 U01 RAS KERNEL FATAL capture valid.........1
+1128441185 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.05.502923 R63-M1-NC C:J06 U01 RAS KERNEL FATAL symbol................13
+1128441185 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.05.665414 R63-M1-NC C:J06 U01 RAS KERNEL FATAL mask..................0x04
+1128441185 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.05.795898 R63-M1-NC C:J06 U01 RAS KERNEL FATAL miscompare............0
+1128441185 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.05.957707 R63-M1-NC C:J06 U01 RAS KERNEL FATAL uncorrectable error...0
+1128441186 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.06.122704 R63-M1-NC C:J06 U01 RAS KERNEL FATAL address parity error..0
+1128441186 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.06.283442 R63-M1-NC C:J06 U01 RAS KERNEL FATAL correctable error.....1
+1128441186 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.06.442836 R63-M1-NC C:J06 U01 RAS KERNEL FATAL qw trapped............0
+1128441186 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.06.607754 R63-M1-NC C:J06 U01 RAS KERNEL FATAL chip select...........0
+1128441186 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.06.877303 R63-M1-NC C:J06 U01 RAS KERNEL FATAL DDR failing data registers: 0x00000000 0x00000400
+1128441187 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.07.100592 R63-M1-NC C:J06 U01 RAS KERNEL FATAL 0x00000000 0x00000000
+1128441187 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.07.270437 R63-M1-NC C:J06 U01 RAS KERNEL FATAL 0x00000000 0x00000000
+1128441187 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.07.386667 R63-M1-NC C:J06 U01 RAS KERNEL FATAL 0x00000000 0x00000000
+1128441187 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.07.544348 R63-M1-NC C:J06 U01 RAS KERNEL FATAL DDR failing address register: 0x00000008 0x13977ac0
+1128441187 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.07.699684 R63-M1-NC C:J06 U01 RAS KERNEL FATAL general purpose registers:
+1128441187 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.07.853645 R63-M1-NC C:J06 U01 RAS KERNEL FATAL 0:00000000 1:00072d90 2:1eeeeeee 3:0002125c
+1128441188 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.08.009341 R63-M1-NC C:J06 U01 RAS KERNEL FATAL 4:00021108 5:00021274 6:000000b8 7:00040000
+1128441188 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.08.167251 R63-M1-NC C:J06 U01 RAS KERNEL FATAL 8:0397ec54 9:00000002 10:0fe00000 11:00090000
+1128441188 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.08.320968 R63-M1-NC C:J06 U01 RAS KERNEL FATAL 12:44804242 13:1eeeeeee 14:00000840 15:000007e0
+1128441188 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.08.476823 R63-M1-NC C:J06 U01 RAS KERNEL FATAL 16:02e039ac 17:00004200 18:002d6690 19:00000000
+1128441188 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.08.640684 R63-M1-NC C:J06 U01 RAS KERNEL FATAL 20:000007e0 21:03636b88 22:00000865 23:0fee9250
+1128441188 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.08.801713 R63-M1-NC C:J06 U01 RAS KERNEL FATAL 24:00082d90 25:00000000 26:fffffff4 27:00040000
+1128441188 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.08.956073 R63-M1-NC C:J06 U01 RAS KERNEL FATAL 28:24802224 29:00000010 30:00089cd0 31:000894a8
+1128441189 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.09.116298 R63-M1-NC C:J06 U01 RAS KERNEL FATAL special purpose registers:
+1128441189 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.09.271984 R63-M1-NC C:J06 U01 RAS KERNEL FATAL lr:0000a2f0 cr:44804242 xer:20000002 ctr:0c5813ac
+1128441189 2005.10.04 R63-M1-NC C:J06 U01 2005-10-04-08.53.09.430092 R63-M1-NC C:J06 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1128508792 2005.10.05 R63-M1-NC I:J18 U11 2005-10-05-03.39.52.141761 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied
+1128508792 2005.10.05 R63-M1-NC I:J18 U01 2005-10-05-03.39.52.268787 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied
+1128508906 2005.10.05 R63-M1-NC I:J18 U11 2005-10-05-03.41.46.070706 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied
+1128508906 2005.10.05 R63-M1-NC I:J18 U01 2005-10-05-03.41.46.178162 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied
+1128509025 2005.10.05 R63-M1-NC I:J18 U11 2005-10-05-03.43.45.254693 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied
+1128509025 2005.10.05 R63-M1-NC I:J18 U01 2005-10-05-03.43.45.375002 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied
+1128509143 2005.10.05 R63-M1-NC I:J18 U11 2005-10-05-03.45.43.562883 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied
+1128509143 2005.10.05 R63-M1-NC I:J18 U01 2005-10-05-03.45.43.665285 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied
+1128510345 2005.10.05 R63-M1-NC I:J18 U11 2005-10-05-04.05.45.475891 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied
+1128510345 2005.10.05 R63-M1-NC I:J18 U01 2005-10-05-04.05.45.590160 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied
+1128550740 2005.10.05 R63-M1-NC I:J18 U11 2005-10-05-15.19.00.903085 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/cop.rts: invalid or missing program image, Permission denied
+1128550741 2005.10.05 R63-M1-NC I:J18 U01 2005-10-05-15.19.01.009884 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/cop.rts: invalid or missing program image, Permission denied
+1128641308 2005.10.06 R63-M1-NC I:J18 U11 2005-10-06-16.28.28.132885 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:39887: Link has been severed
+1128641308 2005.10.06 R63-M1-NC I:J18 U01 2005-10-06-16.28.28.233737 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:39888: Link has been severed
+1128970722 2005.10.10 R63-M1-NC I:J18 U11 2005-10-10-11.58.42.317175 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:57839: Link has been severed
+1128970722 2005.10.10 R63-M1-NC I:J18 U01 2005-10-10-11.58.42.417775 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:57840: Link has been severed
+1129165859 2005.10.12 R63-M1-NC I:J18 U11 2005-10-12-18.10.59.812881 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/vnm.rts: invalid or missing program image, Permission denied
+1129165859 2005.10.12 R63-M1-NC I:J18 U01 2005-10-12-18.10.59.922311 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/vnm.rts: invalid or missing program image, Permission denied
+1129166628 2005.10.12 R63-M1-NC I:J18 U11 2005-10-12-18.23.48.394187 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/vnm.rts: invalid or missing program image, Permission denied
+1129166628 2005.10.12 R63-M1-NC I:J18 U01 2005-10-12-18.23.48.599675 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/vnm.rts: invalid or missing program image, Permission denied
+1129204892 2005.10.13 R63-M1-NC I:J18 U11 2005-10-13-05.01.32.861772 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/followup/SPASM/spasm.254: invalid or missing program image, Permission denied
+1129204995 2005.10.13 R63-M1-NC I:J18 U01 2005-10-13-05.03.15.689016 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/followup/SPASM/spasm.254: invalid or missing program image, Permission denied
+1129208249 2005.10.13 R63-M1-NC I:J18 U11 2005-10-13-05.57.29.932716 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/followup/MINIBEN/MB_254_051007/bandwidth.rts: invalid or missing program image, No such file or directory
+1129208250 2005.10.13 R63-M1-NC I:J18 U01 2005-10-13-05.57.30.044875 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/followup/MINIBEN/MB_254_051007/bandwidth.rts: invalid or missing program image, No such file or directory
+1129208308 2005.10.13 R63-M1-NC I:J18 U11 2005-10-13-05.58.28.976498 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/followup/MINIBEN/MB_254_051007/torus-latency.rts: invalid or missing program image, No such file or directory
+1129208309 2005.10.13 R63-M1-NC I:J18 U01 2005-10-13-05.58.29.078651 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/followup/MINIBEN/MB_254_051007/torus-latency.rts: invalid or missing program image, No such file or directory
+1129289552 2005.10.14 R63-M1-NC I:J18 U11 2005-10-14-04.32.32.077974 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : block_id : location
+1129289654 2005.10.14 R63-M1-NC I:J18 U01 2005-10-14-04.34.14.382179 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : block_id : location
+1129291948 2005.10.14 R63-M1-NC I:J18 U11 2005-10-14-05.12.28.834977 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/followup/RAPTOR/raptor.254.noprint: invalid or missing program image, Permission denied
+1129291948 2005.10.14 R63-M1-NC I:J18 U01 2005-10-14-05.12.28.949815 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/followup/RAPTOR/raptor.254.noprint: invalid or missing program image, Permission denied
+1129391846 2005.10.15 R63-M1-NC I:J18 U11 2005-10-15-08.57.26.629568 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/EPStreamTriad.64K.rts: invalid or missing program image, No such file or directory
+1129391846 2005.10.15 R63-M1-NC I:J18 U01 2005-10-15-08.57.26.732170 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/EPStreamTriad.64K.rts: invalid or missing program image, No such file or directory
+1129391933 2005.10.15 R63-M1-NC I:J18 U11 2005-10-15-08.58.53.880828 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/EPStreamTriad.64K.rts: invalid or missing program image, No such file or directory
+1129391933 2005.10.15 R63-M1-NC I:J18 U01 2005-10-15-08.58.53.994526 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/EPStreamTriad.64K.rts: invalid or missing program image, No such file or directory
+1129501452 2005.10.16 R63-M1-NC I:J18 U11 2005-10-16-15.24.12.648781 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:47633: Link has been severed
+1129501452 2005.10.16 R63-M1-NC I:J18 U01 2005-10-16-15.24.12.765569 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:47634: Link has been severed
+1129547408 2005.10.17 R63-M1-NC I:J18 U11 2005-10-17-04.10.08.454245 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/followup/RAPTOR/current_brian.rts: invalid or missing program image, No such file or directory
+1129547408 2005.10.17 R63-M1-NC I:J18 U01 2005-10-17-04.10.08.573191 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/followup/RAPTOR/current_brian.rts: invalid or missing program image, No such file or directory
+1129750344 2005.10.19 R63-M1-NC I:J18 U11 2005-10-19-12.32.24.988076 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/cabot/miranova/bgl/bin_lukei?/miranda_newhack: invalid or missing program image, No such file or directory
+1129750345 2005.10.19 R63-M1-NC I:J18 U01 2005-10-19-12.32.25.078697 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/cabot/miranova/bgl/bin_lukei?/miranda_newhack: invalid or missing program image, No such file or directory
+1129820542 2005.10.20 R63-M1-NC I:J18 U11 2005-10-20-08.02.22.113810 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/followup/RAPTOR/new.raptor.trace: invalid or missing program image, Exec format error
+1129820542 2005.10.20 R63-M1-NC I:J18 U01 2005-10-20-08.02.22.220353 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/followup/RAPTOR/new.raptor.trace: invalid or missing program image, Exec format error
+1129895978 2005.10.21 R63-M1-NC I:J18 U11 2005-10-21-04.59.38.281259 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /p/gb1/bwallen/oldcode_newkernel.rts: invalid or missing program image, Permission denied
+1129895978 2005.10.21 R63-M1-NC I:J18 U01 2005-10-21-04.59.38.382715 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /p/gb1/bwallen/oldcode_newkernel.rts: invalid or missing program image, Permission denied
+1129903358 2005.10.21 R63-M1-NC I:J18 U11 2005-10-21-07.02.38.220770 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/followup/bcastV1R1.rts: invalid or missing program image, Permission denied
+1129903358 2005.10.21 R63-M1-NC I:J18 U01 2005-10-21-07.02.38.328783 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/followup/bcastV1R1.rts: invalid or missing program image, Permission denied
+1129922451 2005.10.21 R63-M1-NC I:J18 U11 2005-10-21-12.20.51.230900 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/rfisher/sodscaling/flash2.noio: program image too big, 378741472 > 266076160
+1129922451 2005.10.21 R63-M1-NC I:J18 U01 2005-10-21-12.20.51.301123 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/rfisher/sodscaling/flash2.noio: program image too big, 378741472 > 266076160
+1130078147 2005.10.23 R63-M1-NC I:J18 U11 2005-10-23-07.35.47.881446 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/fft_only.rts: invalid or missing program image, Permission denied
+1130078148 2005.10.23 R63-M1-NC I:J18 U01 2005-10-23-07.35.48.024334 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/fft_only.rts: invalid or missing program image, Permission denied
+1130078296 2005.10.23 R63-M1-NC I:J18 U11 2005-10-23-07.38.16.836764 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/fft_only.rts: invalid or missing program image, Permission denied
+1130078296 2005.10.23 R63-M1-NC I:J18 U01 2005-10-23-07.38.16.936216 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/fft_only.rts: invalid or missing program image, Permission denied
+1130157422 2005.10.24 R63-M1-NC I:J18 U11 2005-10-24-05.37.02.720596 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /p/gb1/bwallen/brian_12point3.rts: invalid or missing program image, No such file or directory
+1130157422 2005.10.24 R63-M1-NC I:J18 U01 2005-10-24-05.37.02.840009 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /p/gb1/bwallen/brian_12point3.rts: invalid or missing program image, No such file or directory
+1130251381 2005.10.25 R63-M1-NC I:J18 U11 2005-10-25-07.43.01.007410 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading allreduce_double_V1R1.rts: invalid or missing program image, No such file or directory
+1130251381 2005.10.25 R63-M1-NC I:J18 U01 2005-10-25-07.43.01.132820 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading allreduce_double_V1R1.rts: invalid or missing program image, No such file or directory
+1130251483 2005.10.25 R63-M1-NC I:J18 U11 2005-10-25-07.44.43.306123 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading allreduce_int_V1R1.rts: invalid or missing program image, No such file or directory
+1130251483 2005.10.25 R63-M1-NC I:J18 U01 2005-10-25-07.44.43.416688 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading allreduce_int_V1R1.rts: invalid or missing program image, No such file or directory
+1130443798 2005.10.27 R63-M1-NC I:J18 U11 2005-10-27-13.09.58.226436 R63-M1-NC I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio831 : block_id : location
+1130443798 2005.10.27 R63-M1-NC I:J18 U01 2005-10-27-13.09.58.332337 R63-M1-NC I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio832 : block_id : location
+1130529597 2005.10.28 R63-M1-NC C:J09 U11 2005-10-28-12.59.57.026401 R63-M1-NC C:J09 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J15 U11 2005-10-28-12.59.57.050566 R63-M1-NC C:J15 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J11 U11 2005-10-28-12.59.57.074159 R63-M1-NC C:J11 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J13 U11 2005-10-28-12.59.57.098291 R63-M1-NC C:J13 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J17 U11 2005-10-28-12.59.57.125826 R63-M1-NC C:J17 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J05 U01 2005-10-28-12.59.57.254925 R63-M1-NC C:J05 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J03 U01 2005-10-28-12.59.57.278574 R63-M1-NC C:J03 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J05 U11 2005-10-28-12.59.57.302485 R63-M1-NC C:J05 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J03 U11 2005-10-28-12.59.57.326354 R63-M1-NC C:J03 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J07 U11 2005-10-28-12.59.57.356384 R63-M1-NC C:J07 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J15 U01 2005-10-28-12.59.57.380912 R63-M1-NC C:J15 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J17 U01 2005-10-28-12.59.57.493955 R63-M1-NC C:J17 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J11 U01 2005-10-28-12.59.57.517212 R63-M1-NC C:J11 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J07 U01 2005-10-28-12.59.57.541338 R63-M1-NC C:J07 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J13 U01 2005-10-28-12.59.57.565419 R63-M1-NC C:J13 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J09 U01 2005-10-28-12.59.57.602077 R63-M1-NC C:J09 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J16 U11 2005-10-28-12.59.57.629609 R63-M1-NC C:J16 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J08 U11 2005-10-28-12.59.57.740293 R63-M1-NC C:J08 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J14 U11 2005-10-28-12.59.57.853119 R63-M1-NC C:J14 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529597 2005.10.28 R63-M1-NC C:J10 U11 2005-10-28-12.59.57.892594 R63-M1-NC C:J10 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J06 U11 2005-10-28-12.59.58.002907 R63-M1-NC C:J06 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J12 U11 2005-10-28-12.59.58.025985 R63-M1-NC C:J12 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J14 U01 2005-10-28-12.59.58.049832 R63-M1-NC C:J14 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J16 U01 2005-10-28-12.59.58.073624 R63-M1-NC C:J16 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J10 U01 2005-10-28-12.59.58.097799 R63-M1-NC C:J10 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J12 U01 2005-10-28-12.59.58.125256 R63-M1-NC C:J12 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J08 U01 2005-10-28-12.59.58.235949 R63-M1-NC C:J08 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J04 U01 2005-10-28-12.59.58.259267 R63-M1-NC C:J04 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J06 U01 2005-10-28-12.59.58.295404 R63-M1-NC C:J06 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J04 U11 2005-10-28-12.59.58.325153 R63-M1-NC C:J04 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J02 U01 2005-10-28-12.59.58.349019 R63-M1-NC C:J02 U01 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529598 2005.10.28 R63-M1-NC C:J02 U11 2005-10-28-12.59.58.374073 R63-M1-NC C:J02 U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+1130529622 2005.10.28 R63-M1-NC C:J09 U11 2005-10-28-13.00.22.529654 R63-M1-NC C:J09 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J15 U11 2005-10-28-13.00.22.547307 R63-M1-NC C:J15 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J11 U11 2005-10-28-13.00.22.565171 R63-M1-NC C:J11 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J13 U11 2005-10-28-13.00.22.580103 R63-M1-NC C:J13 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J17 U11 2005-10-28-13.00.22.598020 R63-M1-NC C:J17 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J05 U01 2005-10-28-13.00.22.625031 R63-M1-NC C:J05 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J03 U01 2005-10-28-13.00.22.639583 R63-M1-NC C:J03 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J05 U11 2005-10-28-13.00.22.654501 R63-M1-NC C:J05 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J03 U11 2005-10-28-13.00.22.669449 R63-M1-NC C:J03 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J07 U11 2005-10-28-13.00.22.694593 R63-M1-NC C:J07 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J15 U01 2005-10-28-13.00.22.712025 R63-M1-NC C:J15 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J17 U01 2005-10-28-13.00.22.729393 R63-M1-NC C:J17 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J11 U01 2005-10-28-13.00.22.744552 R63-M1-NC C:J11 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J07 U01 2005-10-28-13.00.22.765319 R63-M1-NC C:J07 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J13 U01 2005-10-28-13.00.22.780673 R63-M1-NC C:J13 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J09 U01 2005-10-28-13.00.22.798379 R63-M1-NC C:J09 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J16 U11 2005-10-28-13.00.22.813263 R63-M1-NC C:J16 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J08 U11 2005-10-28-13.00.22.828234 R63-M1-NC C:J08 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J14 U11 2005-10-28-13.00.22.843079 R63-M1-NC C:J14 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J10 U11 2005-10-28-13.00.22.864232 R63-M1-NC C:J10 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J06 U11 2005-10-28-13.00.22.878935 R63-M1-NC C:J06 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J12 U11 2005-10-28-13.00.22.900373 R63-M1-NC C:J12 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J14 U01 2005-10-28-13.00.22.914913 R63-M1-NC C:J14 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J16 U01 2005-10-28-13.00.22.930166 R63-M1-NC C:J16 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J10 U01 2005-10-28-13.00.22.963974 R63-M1-NC C:J10 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529622 2005.10.28 R63-M1-NC C:J12 U01 2005-10-28-13.00.22.987428 R63-M1-NC C:J12 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529623 2005.10.28 R63-M1-NC C:J08 U01 2005-10-28-13.00.23.014760 R63-M1-NC C:J08 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529623 2005.10.28 R63-M1-NC C:J04 U01 2005-10-28-13.00.23.032967 R63-M1-NC C:J04 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529623 2005.10.28 R63-M1-NC C:J06 U01 2005-10-28-13.00.23.050814 R63-M1-NC C:J06 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529623 2005.10.28 R63-M1-NC C:J04 U11 2005-10-28-13.00.23.065235 R63-M1-NC C:J04 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529623 2005.10.28 R63-M1-NC C:J02 U01 2005-10-28-13.00.23.083268 R63-M1-NC C:J02 U01 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130529623 2005.10.28 R63-M1-NC C:J02 U11 2005-10-28-13.00.23.098731 R63-M1-NC C:J02 U11 RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+1130688101 2005.10.30 R63-M1-NC I:J18 U11 2005-10-30-08.01.41.605462 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/hpcc-1.0.0.102905_opt_essl_cpm: invalid or missing program image, Permission denied
+1130688101 2005.10.30 R63-M1-NC I:J18 U01 2005-10-30-08.01.41.708166 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/hpcc-1.0.0.102905_opt_essl_cpm: invalid or missing program image, Permission denied
+1130695676 2005.10.30 R63-M1-NC I:J18 U11 2005-10-30-10.07.56.527750 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/hpcc-1.0.0.102905_vnm_essl_cpm: invalid or missing program image, No such file or directory
+1130695676 2005.10.30 R63-M1-NC I:J18 U01 2005-10-30-10.07.56.630820 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/hpcc-1.0.0.102905_vnm_essl_cpm: invalid or missing program image, No such file or directory

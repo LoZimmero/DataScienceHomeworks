@@ -113,7 +113,6 @@ abline(h = 0, col = "red")
 
 
 ### Analisi su interarrivals ########################
-### Analisi su interarrivals ########################
 # Carica i dati
 interarrivals_sept<-read.delim(pathsept,header = FALSE)
 interarrivals_oct<-read.delim(pathoct,header = FALSE)
