@@ -1,0 +1,4 @@
+1127185846 2005.09.19 R63-M1-NC I:J18 U11 2005-09-19-20.10.46.069571 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/romio_tests) failed: No such file or directory
+1127185846 2005.09.19 R63-M1-NC I:J18 U01 2005-09-19-20.10.46.143536 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/romio_tests) failed: No such file or directory
+1127185915 2005.09.19 R63-M1-NC I:J18 U11 2005-09-19-20.11.55.713431 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/romio_tests) failed: No such file or directory
+1127185915 2005.09.19 R63-M1-NC I:J18 U01 2005-09-19-20.11.55.808524 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/romio_tests) failed: No such file or directory

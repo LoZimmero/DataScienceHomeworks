@@ -1,0 +1,2 @@
+1128510352 2005.10.05 R63-M1-N0 I:J18 U11 2005-10-05-04.05.52.884436 R63-M1-N0 I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied
+1128510352 2005.10.05 R63-M1-N0 I:J18 U01 2005-10-05-04.05.52.999386 R63-M1-N0 I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied

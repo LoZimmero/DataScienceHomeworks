@@ -1,0 +1,2 @@
+1128105731 2005.09.30 R63-M1-NC I:J18 U11 2005-09-30-11.42.11.088383 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:34360: Connection reset by peer
+1128105731 2005.09.30 R63-M1-NC I:J18 U01 2005-09-30-11.42.11.184414 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:34361: Link has been severed

@@ -1,0 +1,2 @@
+1128641364 2005.10.06 R62-M0-N0 I:J18 U11 2005-10-06-16.29.24.775777 R62-M0-N0 I:J18 U11 RAS APP FATAL ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:40405: Link has been severed
+1128641364 2005.10.06 R62-M0-N0 I:J18 U01 2005-10-06-16.29.24.886524 R62-M0-N0 I:J18 U01 RAS APP FATAL ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:40406: Link has been severed

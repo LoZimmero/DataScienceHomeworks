@@ -1,0 +1,34 @@
+1125879155 2005.09.04 R63-M1-N0 C:J15 U11 2005-09-04-17.12.35.312666 R63-M1-N0 C:J15 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J11 U11 2005-09-04-17.12.35.489088 R63-M1-N0 C:J11 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J03 U01 2005-09-04-17.12.35.666907 R63-M1-N0 C:J03 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J03 U11 2005-09-04-17.12.35.701138 R63-M1-N0 C:J03 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J07 U11 2005-09-04-17.12.35.726139 R63-M1-N0 C:J07 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J15 U01 2005-09-04-17.12.35.756363 R63-M1-N0 C:J15 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J11 U01 2005-09-04-17.12.35.786302 R63-M1-N0 C:J11 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J07 U01 2005-09-04-17.12.35.810157 R63-M1-N0 C:J07 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J14 U11 2005-09-04-17.12.35.835077 R63-M1-N0 C:J14 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J10 U11 2005-09-04-17.12.35.858188 R63-M1-N0 C:J10 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J06 U11 2005-09-04-17.12.35.888191 R63-M1-N0 C:J06 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J14 U01 2005-09-04-17.12.35.912156 R63-M1-N0 C:J14 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J10 U01 2005-09-04-17.12.35.936403 R63-M1-N0 C:J10 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J06 U01 2005-09-04-17.12.35.960079 R63-M1-N0 C:J06 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879155 2005.09.04 R63-M1-N0 C:J02 U01 2005-09-04-17.12.35.984896 R63-M1-N0 C:J02 U01 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879156 2005.09.04 R63-M1-N0 C:J02 U11 2005-09-04-17.12.36.020705 R63-M1-N0 C:J02 U11 RAS KERNEL FATAL external input interrupt (unit=0x02 bit=0x0d): torus sender z+ retransmission error was corrected
+1125879158 2005.09.04 R63-M1-N0 C:J15 U11 2005-09-04-17.12.38.649570 R63-M1-N0 C:J15 U11 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J11 U11 2005-09-04-17.12.38.670454 R63-M1-N0 C:J11 U11 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J03 U01 2005-09-04-17.12.38.686017 R63-M1-N0 C:J03 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J03 U11 2005-09-04-17.12.38.700161 R63-M1-N0 C:J03 U11 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J07 U11 2005-09-04-17.12.38.714738 R63-M1-N0 C:J07 U11 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J15 U01 2005-09-04-17.12.38.729970 R63-M1-N0 C:J15 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J11 U01 2005-09-04-17.12.38.744655 R63-M1-N0 C:J11 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J07 U01 2005-09-04-17.12.38.778411 R63-M1-N0 C:J07 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J14 U11 2005-09-04-17.12.38.799989 R63-M1-N0 C:J14 U11 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J10 U11 2005-09-04-17.12.38.824221 R63-M1-N0 C:J10 U11 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J06 U11 2005-09-04-17.12.38.840622 R63-M1-N0 C:J06 U11 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J14 U01 2005-09-04-17.12.38.856362 R63-M1-N0 C:J14 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J10 U01 2005-09-04-17.12.38.871875 R63-M1-N0 C:J10 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J06 U01 2005-09-04-17.12.38.896050 R63-M1-N0 C:J06 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J02 U01 2005-09-04-17.12.38.920375 R63-M1-N0 C:J02 U01 RAS KERNEL FATAL rts panic! - stopping execution
+1125879158 2005.09.04 R63-M1-N0 C:J02 U11 2005-09-04-17.12.38.936885 R63-M1-N0 C:J02 U11 RAS KERNEL FATAL rts panic! - stopping execution
+1125879160 2005.09.04 R63-M1-N0 I:J18 U11 2005-09-04-17.12.40.713789 R63-M1-N0 I:J18 U11 RAS KERNEL FATAL Lustre mount FAILED : bglio821 : point /p/gb1
+1125879160 2005.09.04 R63-M1-N0 I:J18 U01 2005-09-04-17.12.40.743487 R63-M1-N0 I:J18 U01 RAS KERNEL FATAL Lustre mount FAILED : bglio822 : point /p/gb1

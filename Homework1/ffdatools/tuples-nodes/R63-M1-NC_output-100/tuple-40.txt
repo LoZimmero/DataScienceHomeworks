@@ -1,0 +1,2 @@
+1127147551 2005.09.19 R63-M1-NC I:J18 U11 2005-09-19-09.32.31.620965 R63-M1-NC I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/spelce1/UMT2K/umt2k/ckpt_umt2k_src/TEST/NEW_TEST) failed: No such file or directory
+1127147551 2005.09.19 R63-M1-NC I:J18 U01 2005-09-19-09.32.31.820716 R63-M1-NC I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/spelce1/UMT2K/umt2k/ckpt_umt2k_src/TEST/NEW_TEST) failed: No such file or directory

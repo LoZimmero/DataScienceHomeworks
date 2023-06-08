@@ -1,0 +1,2 @@
+1126021557 2005.09.06 R62-M0-N4 I:J18 U11 2005-09-06-08.45.57.361633 R62-M0-N4 I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/spelce1/sppmopt716/run) failed: Permission denied
+1126021557 2005.09.06 R62-M0-N4 I:J18 U01 2005-09-06-08.45.57.391758 R62-M0-N4 I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/spelce1/sppmopt716/run) failed: Permission denied

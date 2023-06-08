@@ -1,0 +1,2 @@
+1128037209 2005.09.29 R63-M1-N0 I:J18 U11 2005-09-29-16.40.09.894830 R63-M1-N0 I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/spelce1/HPCC_IBM/Urgent/FFTW/32) failed: No such file or directory
+1128037210 2005.09.29 R63-M1-N0 I:J18 U01 2005-09-29-16.40.10.016212 R63-M1-N0 I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/spelce1/HPCC_IBM/Urgent/FFTW/32) failed: No such file or directory

@@ -1,0 +1,2 @@
+1128550754 2005.10.05 R63-M1-N8 I:J18 U11 2005-10-05-15.19.14.019789 R63-M1-N8 I:J18 U11 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/cop.rts: invalid or missing program image, Permission denied
+1128550754 2005.10.05 R63-M1-N8 I:J18 U01 2005-10-05-15.19.14.134451 R63-M1-N8 I:J18 U01 RAS APP FATAL ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/cop.rts: invalid or missing program image, Permission denied

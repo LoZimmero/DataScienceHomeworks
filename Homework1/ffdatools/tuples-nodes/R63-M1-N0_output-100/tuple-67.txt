@@ -1,0 +1,2 @@
+1129204899 2005.10.13 R63-M1-N0 I:J18 U11 2005-10-13-05.01.39.184029 R63-M1-N0 I:J18 U11 RAS APP FATAL ciod: Error loading /bgl/apps/followup/SPASM/spasm.254: invalid or missing program image, Permission denied
+1129204899 2005.10.13 R63-M1-N0 I:J18 U01 2005-10-13-05.01.39.277916 R63-M1-N0 I:J18 U01 RAS APP FATAL ciod: Error loading /bgl/apps/followup/SPASM/spasm.254: invalid or missing program image, Permission denied

@@ -1,0 +1,4 @@
+1127186132 2005.09.19 R63-M1-N8 I:J18 U11 2005-09-19-20.15.32.877355 R63-M1-N8 I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/BGLc-ACCEPTANCE/MPI_IO_Func-ROMIO_testsuite/romio_tests) failed: No such file or directory
+1127186132 2005.09.19 R63-M1-N8 I:J18 U01 2005-09-19-20.15.32.907059 R63-M1-N8 I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/BGLc-ACCEPTANCE/MPI_IO_Func-ROMIO_testsuite/romio_tests) failed: No such file or directory
+1127186195 2005.09.19 R63-M1-N8 I:J18 U11 2005-09-19-20.16.35.813232 R63-M1-N8 I:J18 U11 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/BGLc-ACCEPTANCE/MPI_IO_Func-ROMIO_testsuite/romio_tests) failed: No such file or directory
+1127186195 2005.09.19 R63-M1-N8 I:J18 U01 2005-09-19-20.16.35.842907 R63-M1-N8 I:J18 U01 RAS APP FATAL ciod: LOGIN chdir(/home/loewe/BGLc-ACCEPTANCE/MPI_IO_Func-ROMIO_testsuite/romio_tests) failed: No such file or directory
