@@ -130,3 +130,80 @@ for (i in 1:length(models)) {
   abline(h = 0, col = "red")
   dev.off()
 }
+
+
+### Analisi su interarrivals ########################
+# Specifica i dettagli dei nodi
+node_dirs <- c("R62-M0-N0_output-100", "R62-M0-N4_output-100", "R62-M0-NC_output-100")
+nodes <- substr(node_dirs, 1, 9)
+
+all_data <- list()
+
+# Itera sui nodi
+for (i in 1:length(node_dirs)) {
+  nodedir <- node_dirs[i]
+  node <- nodes[i]
+  
+  # Specifica il percorso del file dati
+  path <- paste0("C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-nodes/", nodedir, "/interarrivals.txt")
+  
+  # Specifica il percorso di salvataggio dei grafici
+  vis_path <- paste0("C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/Visualizations/Nodes/Interarrivals analysis/", node)
+  
+  # Carica i dati
+  interarrivals <- read.delim(path, header = FALSE)
+  
+  
+  # Aggiungi i dati alla lista
+  all_data[[node]] <- interarrivals$V1
+  
+  # Calcola le statistiche descrittive
+  print(paste("Summary for Node ", node))
+  print(summary(interarrivals$V1))
+  
+  # Calcola la media
+  mean_time <- mean(interarrivals$V1)
+  
+  # Calcola la mediana
+  median_time <- median(interarrivals$V1)
+  
+  # Calcola la deviazione standard
+  sd_time <- sd(interarrivals$V1)
+  
+  # Crea un istogramma con più bin
+  png(filename = paste0(vis_path,node, " - Interarrival times.png"))
+  hist(interarrivals$V1, breaks = 30, main = paste("Interarrival times - Node ", node), freq = FALSE,
+       xlab = "Interarrival Time (seconds)",
+       col = "lightblue", border = "black")
+  lines(density(interarrivals$V1), col = "red", lwd = 2)
+  dev.off()
+  
+  # Crea un grafico della distribuzione con i valori di tendenza centrale
+  png(filename = paste0(vis_path,node, " - Interarrival times distribution.png"))
+  plot(density(interarrivals$V1), main = paste("Interarrival times distribution - Node", node),
+       xlab = "Interarrival Time (seconds)")
+  abline(v = mean_time, col = "red", lwd = 2)  # Media
+  abline(v = median_time, col = "blue", lwd = 2)  # Mediana
+  
+  # Aggiungi una legenda
+  legend("topright", legend = c("Mean", "Median"),
+         col = c("red", "blue"), lwd = 2)
+  dev.off()
+}
+pathsept<- "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-bgloct_1-100/interarrivals.txt"
+interarrivals_sept<-read.delim(pathsept,header = FALSE)
+all_data[["sept"]] <- interarrivals_sept$V1
+all_data
+nodes<-append(nodes,"sept")
+
+#Serve a levare la notazione scientifica
+options(scipen = 5)
+
+# Crea un boxplot combinato per tutti i nodi
+png(filename = "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/Visualizations/Nodes/Interarrival_Times_All_Nodes.png")
+boxplot(all_data, main = "Interarrival Times - All Nodes",
+        boxwex = 0.4, ylab = "Interarrival Time (seconds)", col = c("lightblue", "lightgreen"),
+        names = nodes)
+dev.off()
+
+
