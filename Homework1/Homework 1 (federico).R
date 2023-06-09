@@ -6,18 +6,24 @@ octdata<-read.delim("C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homewo
 plot(octdata$V1,octdata$V2,xlab = "CWIN",ylab = "count",col="blue",type = "ol",xlim = c(0,300),ylim = c(0,600))
 title(main="October data")
 
+nodedata<-read.delim("C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/counts/tcount-R63-M1-NC_output.txt")
+septdata<-nodedata
+plot(septdata$CWIN,septdata$COUNT,xlab = "CWIN",ylab = "count",col="blue",type = "ol",xlim = c(0,300),ylim = c(0,1200))
+title(main="Node R63-M1-NC data")
+
+
 ### Si potrebbe usare la differenza tra un valore di count e il successivo per vedere quando finisce di variare in maniera significativa
 # calcola la differenza tra i valori successivi di count
 diff.countsept <- -(diff(septdata$COUNT))
 diff.countoct <- -(diff(octdata$V2))
 
 # aggiungi NA alla fine per allineare con i valori di CWIN, o all'inizio se fai inverso
-diff.countsept <- c(NA,diff.countsept)
-diff.countoct <- c(NA,diff.countoct)
+diff.countsept <- c(diff.countsept,NA)
+diff.countoct <- c(diff.countoct,NA)
 
 # crea il grafico
 plot(septdata$CWIN, diff.countsept, xlab = "CWIN", ylab = "difference in count", col="blue", type = "o", xlim = c(0,300), ylim = c(0,300))
-title(main = "Variation in CWIN - September")
+title(main = "Variation in CWIN - R63-M1-NC")
 plot(octdata$V1, diff.countoct, xlab = "CWIN", ylab = "difference in count", col="blue", type = "o", xlim = c(0,300), ylim = c(0,150))
 title(main = "Variation in CWIN - October")
 
@@ -29,6 +35,9 @@ title(main = "Variation in CWIN - October")
 pathsept<- "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-bglsep_1-120/interarrivals.txt"
 pathoct<- "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-bgloct_1-100/interarrivals.txt"
 
+pathnodes<- "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-nodes/R62-M0-N0_output-100/interarrivals.txt"
+pathsept<-pathnodes
+
 interarrivals<-read.delim(pathsept,header = FALSE)
 
 #Calkcolo ecdf
@@ -39,12 +48,12 @@ TTF<-ecdf(interarrivals$V1)
 t<-knots(TTF)
 par(cex=1.3)
 plot(t,TTF(t),col="red",xlim=c(0,50000),type="ol",xlab = "time(s)",ylab = "P ( X<X(t) )")
-title(main="ECDF - September interarrivals")
+title(main="ECDF - R62-M0-N0 interarrivals")
 title(main="ECDF - October interarrivals")
 
 #questa è la reliability empirica
 r<- 1-TTF(t)
-title(main="ECDF and Reliability - October interarrivals")
+title(main="ECDF and Reliability - R62-M0-N0 interarrivals")
 legend("topright", legend = c("Reliability", "ECDF"), col = c("blue", "red"), pch = 1)
 
 lines(t,r,col="blue",xlim=c(0,50000),type="ol",xlab = "time(s)",ylab = "p")
