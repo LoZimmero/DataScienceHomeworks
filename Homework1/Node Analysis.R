@@ -4,6 +4,8 @@ library(png)
 
 # Get current file path
 CURR_FILE_PATH <- getwd()
+CURR_FILE_PATH<-paste0(CURR_FILE_PATH,"/GitHub/DataScienceHomeworks/Homework1")
+
 
 # method paste() to join strings. MUST use sep="" to avoid adding empty space between strings
 FFDATOOLS <- paste(CURR_FILE_PATH, "/ffdatools", sep="")
@@ -48,7 +50,7 @@ dev.off()
 # Ripristino dei parametri di grafica predefiniti
 
 plot_title<-paste0("Node ",node," - Hyperexponential variations")
-png(filename=paste0(vis_path,plot_title,'.png'), width = 800, height = 600)
+png(filename=paste0(vis_path,plot_title,'.png'),width = 1000,height = 800)
 plot(t,r)
 title(main=plot_title)
 
@@ -85,7 +87,7 @@ legend("topright", legend = c("ECDF","hyperexp 1","hyperexp 2","hyperexp 3"), co
 dev.off()
 
 plot_title<-paste0("Node ",node," - Reliability modelling")
-png(filename=paste0(vis_path,plot_title,'.png'), width = 800, height = 600)
+png(filename=paste0(vis_path,plot_title,'.png'),width = 1000,height = 800)
 plot(t,r)
 title(main=plot_title)
 
@@ -106,7 +108,6 @@ ks.test(r,predict(hyperexp2))
 ks.test(r,predict(hyperexp3))
 
 
-####chatgpt code#####
 ####aggiungo roba interessante#####
 models <- list(expfit, weifit, hyperexp1, hyperexp2, hyperexp3)
 model_names <- c("expfit", "weifit", "hyperexp1", "hyperexp2", "hyperexp3")
@@ -116,11 +117,9 @@ for (i in 1:length(models)) {
   model_name <- model_names[i]
   
   residuals <- residuals(model)
-  qqnorm(residuals)
-  qqline(residuals)
-   
-  plot_title <- paste0("Node ",node, " - Residuals vs Predicted", model_name)
-  png(filename = paste0(vis_path, plot_title, '.png'), width = 800, height = 600)
+  
+  plot_title <- paste0("Node ",node, " - Residuals vs Predicted ", model_name)
+  png(filename = paste0(vis_path,"/node_residuals/", plot_title, '.png'),width = 1000,height = 800)
   predicted_response <- predict(model)
   plot(predicted_response, residuals, 
        xlab = "Predicted", ylab = "Residuals", 
@@ -128,22 +127,33 @@ for (i in 1:length(models)) {
   abline(h = 0, col = "red")
   dev.off()
   
-  plot_title <- paste0("Node ",node, " - Residuals vs Experiment Number", model_name)
-  png(filename = paste0(vis_path, plot_title, '.png'), width = 800, height = 600)
+  plot_title <- paste0("Node ",node, " - Residuals vs Experiment Number ", model_name)
+  png(filename = paste0(vis_path,"/node_residuals/", plot_title, '.png'),width = 1000,height = 800)
   plot(residuals, 
        xlab = "Experiment Number", ylab = "Residuals", 
        main = plot_title)
   abline(h = 0, col = "red")
   dev.off()
+  
+  # Aggiunta del QQ Plot
+  plot_title_qq <- paste0("Node ", node, " - QQ Plot ", model_name)
+  png(filename = paste0(vis_path,"/node_residuals/", plot_title_qq, '.png'),width = 1000,height = 800)
+  qqnorm(residuals, main = plot_title_qq, ylab = "Quantiles of residuals")
+  qqline(residuals, col = "red")
+  dev.off()
 }
+
 
 
 ### Analisi su interarrivals ########################
 # Specifica i dettagli dei nodi
-node_dirs <- c("R62-M0-N0_output-100", "R62-M0-N4_output-100", "R62-M0-NC_output-100")
+node_dirs <- c("R62-M0-N0_output-100", "R62-M0-N4_output-100", "R62-M0-NC_output-100","R63-M1-N0_output-100","R63-M1-N8_output-100","R63-M1-NC_output-100")
 nodes <- substr(node_dirs, 1, 9)
 
 all_data <- list()
+
+#Serve a levare la notazione scientifica
+options(scipen = 5)
 
 # Itera sui nodi
 for (i in 1:length(node_dirs)) {
@@ -176,7 +186,7 @@ for (i in 1:length(node_dirs)) {
   sd_time <- sd(interarrivals$V1)
   
   # Crea un istogramma con più bin
-  png(filename = paste0(vis_path,node, " - Interarrival times.png"))
+  png(filename = paste0(vis_path,node, " - Interarrival times.png"),width = 1000,height = 800)
   hist(interarrivals$V1, breaks = 30, main = paste("Interarrival times - Node ", node), freq = FALSE,
        xlab = "Interarrival Time (seconds)",
        col = "lightblue", border = "black")
@@ -184,7 +194,7 @@ for (i in 1:length(node_dirs)) {
   dev.off()
   
   # Crea un grafico della distribuzione con i valori di tendenza centrale
-  png(filename = paste0(vis_path,node, " - Interarrival times distribution.png"))
+  png(filename = paste0(vis_path,node, " - Interarrival times distribution.png"),width = 1000,height = 800)
   plot(density(interarrivals$V1), main = paste("Interarrival times distribution - Node", node),
        xlab = "Interarrival Time (seconds)")
   abline(v = mean_time, col = "red", lwd = 2)  # Media
@@ -201,11 +211,9 @@ for (i in 1:length(node_dirs)) {
 #all_data
 #nodes<-append(nodes,"sept")
 
-#Serve a levare la notazione scientifica
-options(scipen = 5)
 
 # Crea un boxplot combinato per tutti i nodi
-png(filename = paste0(CURR_FILE_PATH,"/Visualizations/Nodes/Interarrival_Times_All_Nodes.png"))
+png(filename = paste0(CURR_FILE_PATH,"/Visualizations/Nodes/Interarrival_Times_All_Nodes.png"),width = 1000,height = 800)
 boxplot(all_data, main = "Interarrival Times - All Nodes",
         boxwex = 0.4, ylab = "Interarrival Time (seconds)", col = c("lightblue", "lightgreen"),
         names = nodes)

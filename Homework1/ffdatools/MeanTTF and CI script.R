@@ -21,6 +21,7 @@ print(paste("Deviazione standard del time to failure:", std_dev))
 print(paste("Intervallo di confidenza al 90% del time to failure:", ci_90))
 print(paste("Intervallo di confidenza al 95% del time to failure:", ci_95))
 
+# extra
 # Bootstrap
 boot_obj <- boot(data = data$X1, statistic = function(data, indices) mean(data[indices]), R = 10000)
 
