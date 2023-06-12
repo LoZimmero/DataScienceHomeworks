@@ -28,7 +28,7 @@ TTF<-ecdf(interarrivals$V1)
 #l'output sarà quindi una parte di tutti gli interarrivi
 
 plot_title<-paste0("Node ",node," - ECDF")
-png(filename=paste0(vis_path,plot_title,'.png'), width = 800, height = 600)
+png(filename=paste0(vis_path,plot_title,'.png'),width = 1000,height = 800)
 t<-knots(TTF)
 par(cex=1.3)
 plot(t,TTF(t),col="red",xlim=c(0,50000),type="ol",xlab = "time(s)",ylab = "P ( X<X(t) )")
@@ -38,7 +38,7 @@ dev.off()
 #questa è la reliability empirica
 
 plot_title<-paste0("Node ",node," - ECDF and Reliability")
-png(filename=paste0(vis_path,plot_title,'.png'), width = 800, height = 600)
+png(filename=paste0(vis_path,plot_title,'.png'),width = 1000,height = 800)
 plot(t,TTF(t),col="red",xlim=c(0,50000),type="ol",xlab = "time(s)",ylab = "P ( X<X(t) )")
 r<- 1-TTF(t)
 title(main=plot_title)
