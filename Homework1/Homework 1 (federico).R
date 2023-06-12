@@ -1,14 +1,23 @@
-septdata<-read.delim("C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/counts/tcount-bglsep_1.txt")
+# Get current file path
+CURR_FILE_PATH <- getwd()
+
+# method paste() to join strings. MUST use sep="" to avoid adding empty space between strings
+FFDATOOLS <- paste(CURR_FILE_PATH, "/ffdatools", sep="")
+
+septdata_path = paste(FFDATOOLS, "/counts/tcount-bglsep_1.txt", sep="")
+septdata<-read.delim(septdata_path)
 plot(septdata$CWIN,septdata$COUNT,xlab = "CWIN",ylab = "count",col="blue",type = "ol",xlim = c(0,300),ylim = c(0,1200))
 title(main="September data")
 
-octdata<-read.delim("C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/counts/tcount-bgloct_1.txt",header = FALSE)
+octdata_path = paste(FFDATOOLS, "/counts/tcount-bgloct_1.txt", sep="")
+octdata<-read.delim(octdata_path,header = FALSE)
 plot(octdata$V1,octdata$V2,xlab = "CWIN",ylab = "count",col="blue",type = "ol",xlim = c(0,300),ylim = c(0,600))
 title(main="October data")
 
-nodedata<-read.delim("C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/counts/tcount-R63-M1-NC_output.txt")
+nodedata_path = paste(FFDATOOLS, "/counts/tcount-R63-M1-NC_output.txt", sep="")
+nodedata<-read.delim(nodedata_path)
 septdata<-nodedata
-plot(septdata$CWIN,septdata$COUNT,xlab = "CWIN",ylab = "count",col="blue",type = "ol",xlim = c(0,300),ylim = c(0,1200))
+plot(nodedata$CWIN,nodedata$COUNT,xlab = "CWIN",ylab = "count",col="blue",type = "ol",xlim = c(0,300),ylim = c(0,1200))
 title(main="Node R63-M1-NC data")
 
 
@@ -32,10 +41,10 @@ title(main = "Variation in CWIN - October")
 ##Qua si gira lo script per generare interarrivals
 
 ###importiamo interarrivals
-pathsept<- "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-bglsep_1-120/interarrivals.txt"
-pathoct<- "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-bgloct_1-100/interarrivals.txt"
+pathsept<- paste(FFDATOOLS,"/tuples-bglsep_1-120/interarrivals.txt", sep="")
+pathoct<- paste(FFDATOOLS, "/tuples-bgloct_1-100/interarrivals.txt", sep="")
 
-pathnodes<- "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-nodes/R62-M0-N0_output-100/interarrivals.txt"
+pathnodes<- paste(FFDATOOLS, "/tuples-nodes/R62-M0-N0_output-100/interarrivals.txt", sep="")
 pathsept<-pathnodes
 
 interarrivals<-read.delim(pathsept,header = FALSE)
