@@ -2,6 +2,12 @@
 install.packages("png")
 library(png)
 
+# Get current file path
+CURR_FILE_PATH <- getwd()
+
+# method paste() to join strings. MUST use sep="" to avoid adding empty space between strings
+FFDATOOLS <- paste(CURR_FILE_PATH, "/ffdatools", sep="")
+
 ###importiamo interarrivals
 
 ###qua ci va il nome della cartella
@@ -9,8 +15,8 @@ nodedir <- "R62-M0-N0_output-100"
 
 node <- substr(nodedir, 1, 9)
 
-path<-paste0("C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-nodes/",nodedir,"/interarrivals.txt")
-vis_path<-"C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/Visualizations/Nodes"
+path<-paste0(CURR_FILE_PATH,"/ffdatools/tuples-nodes/",nodedir,"/interarrivals.txt", sep="")
+vis_path<-paste(CURR_FILE_PATH,"/Visualizations/Nodes",sep="")
 interarrivals<-read.delim(path,header = FALSE)
 
 #Calcolo ecdf
@@ -145,14 +151,13 @@ for (i in 1:length(node_dirs)) {
   node <- nodes[i]
   
   # Specifica il percorso del file dati
-  path <- paste0("C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-nodes/", nodedir, "/interarrivals.txt")
+  path <- paste0(CURR_FILE_PATH,"/ffdatools/tuples-nodes/", nodedir, "/interarrivals.txt")
   
   # Specifica il percorso di salvataggio dei grafici
-  vis_path <- paste0("C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/Visualizations/Nodes/Interarrivals analysis/", node)
+  vis_path <- paste0(CURR_FILE_PATH,"/Visualizations/Nodes/Interarrivals analysis/", node)
   
   # Carica i dati
   interarrivals <- read.delim(path, header = FALSE)
-  
   
   # Aggiungi i dati alla lista
   all_data[[node]] <- interarrivals$V1
@@ -190,17 +195,17 @@ for (i in 1:length(node_dirs)) {
          col = c("red", "blue"), lwd = 2)
   dev.off()
 }
-pathsept<- "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-bgloct_1-100/interarrivals.txt"
-interarrivals_sept<-read.delim(pathsept,header = FALSE)
-all_data[["sept"]] <- interarrivals_sept$V1
-all_data
-nodes<-append(nodes,"sept")
+#pathsept<- "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/ffdatools/tuples-bgloct_1-100/interarrivals.txt"
+#interarrivals_sept<-read.delim(pathsept,header = FALSE)
+#all_data[["sept"]] <- interarrivals_sept$V1
+#all_data
+#nodes<-append(nodes,"sept")
 
 #Serve a levare la notazione scientifica
 options(scipen = 5)
 
 # Crea un boxplot combinato per tutti i nodi
-png(filename = "C:/Users/fonde/Documents/GitHub/DataScienceHomeworks/Homework1/Visualizations/Nodes/Interarrival_Times_All_Nodes.png")
+png(filename = paste0(CURR_FILE_PATH,"/Visualizations/Nodes/Interarrival_Times_All_Nodes.png"))
 boxplot(all_data, main = "Interarrival Times - All Nodes",
         boxwex = 0.4, ylab = "Interarrival Time (seconds)", col = c("lightblue", "lightgreen"),
         names = nodes)
