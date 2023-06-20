@@ -48,6 +48,7 @@ pathnodes<- paste(FFDATOOLS, "/tuples-nodes/R62-M0-N0_output-100/interarrivals.t
 pathsept<-pathnodes
 
 interarrivals<-read.delim(pathsept,header = FALSE)
+interarrivals<-read.delim(pathoct,header = FALSE)
 
 #Calkcolo ecdf
 TTF<-ecdf(interarrivals$V1)
@@ -109,25 +110,47 @@ ks.test(r,predict(hyperexp1))
 ks.test(r,predict(hyperexp2))
 ks.test(r,predict(hyperexp3))
 
-####chatgpt code#####
-####aggiungo roba interessante#####
-model<-weifit
-model_name<-"Weibull"
+##rework qqplot
+month<-"September"
+month<-"October"
+vis_path<-paste(CURR_FILE_PATH,"/Visualizations/September MOdels/",sep="")
+vis_path<-paste(CURR_FILE_PATH,"/Visualizations/October Models/",sep="")
 
-residuals <- residuals(model)
-qqnorm(residuals)
-qqline(residuals)
+models <- list(expfit, weifit, hyperexp1, hyperexp2, hyperexp3)
+model_names <- c("expfit", "weifit", "hyperexp1", "hyperexp2", "hyperexp3")
 
-predicted_response <- predict(model)
-plot(predicted_response, residuals, 
-     xlab = "Predicted", ylab = "Residuals", 
-     main = paste("Residuals vs Predicted -", model_name))
-abline(h = 0, col = "red")
+for (i in 1:length(models)) {
+  model <- models[[i]]
+  model_name <- model_names[i]
+  
+  residuals <- residuals(model)
+  
+  plot_title <- paste0("Residuals vs Predicted - ", month," ",model_name)
+  png(filename = paste0(vis_path, plot_title, '.png'),width = 1000,height = 800)
+  predicted_response <- predict(model)
+  plot(predicted_response, residuals, 
+       xlab = "Predicted", ylab = "Residuals", 
+       main = plot_title)
+  abline(h = 0, col = "red")
+  dev.off()
+  
+  plot_title <- paste0("Residuals vs Experiment Number - ", month," ",model_name)
+  png(filename = paste0(vis_path, plot_title, '.png'),width = 1000,height = 800)
+  plot(residuals, 
+       xlab = "Experiment Number", ylab = "Residuals", 
+       main = plot_title)
+  abline(h = 0, col = "red")
+  dev.off()
+  
+  # Aggiunta del QQ Plot
+  plot_title_qq <- paste0("QQ Plot - ", month," ",model_name)
+  png(filename = paste0(vis_path, plot_title_qq, '.png'),width = 1000,height = 800)
+  qqnorm(residuals, main = plot_title_qq, ylab = "Quantiles of residuals")
+  qqline(residuals, col = "red")
+  dev.off()
+}
 
-plot(residuals, 
-     xlab = "Experiment Number", ylab = "Residuals", 
-     main = paste("Residuals vs Experiment Number -", model_name))
-abline(h = 0, col = "red")
+
 
 
 ### Analisi su interarrivals ########################
