@@ -194,7 +194,7 @@ for (i in 1:length(node_dirs)) {
   }
   
   # Crea un istogramma con più bin
-  png(filename = paste0(vis_path, " - Interarrival times.png"),width = 1000,height = 800)
+  png(filename = paste0(vis_path,"Node ", node, " - Interarrival times.png"),width = 1000,height = 800)
   hist(interarrivals$V1, breaks = 30, main = paste("Interarrival times - Node ", node), freq = FALSE,
        xlab = "Interarrival Time (seconds)",
        col = "lightblue", border = "black")
@@ -202,7 +202,7 @@ for (i in 1:length(node_dirs)) {
   dev.off()
   
   # Crea un grafico della distribuzione con i valori di tendenza centrale
-  png(filename = paste0(vis_path, " - Interarrival times distribution.png"),width = 1000,height = 800)
+  png(filename = paste0(vis_path,"Node ", node, " - Interarrival times distribution.png"),width = 1000,height = 800)
   plot(density(interarrivals$V1), main = paste("Interarrival times distribution - Node", node),
        xlab = "Interarrival Time (seconds)")
   abline(v = mean_time, col = "red", lwd = 2)  # Media
