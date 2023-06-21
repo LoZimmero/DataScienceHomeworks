@@ -117,11 +117,11 @@ for (i in 1:length(node_dirs)) {
   dev.off()
   
   ##tets di ks
-  ks.test(r,predict(expfit))
-  ks.test(r,predict(weifit))
-  ks.test(r,predict(hyperexp1))
-  ks.test(r,predict(hyperexp2))
-  ks.test(r,predict(hyperexp3))
+  print(ks.test(r,predict(expfit)))
+  print(ks.test(r,predict(weifit)))
+  print(ks.test(r,predict(hyperexp1)))
+  print(ks.test(r,predict(hyperexp2)))
+  print(ks.test(r,predict(hyperexp3)))
   
   
   models <- list(expfit, weifit, hyperexp1, hyperexp2, hyperexp3)
