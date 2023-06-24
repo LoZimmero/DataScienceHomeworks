@@ -4,6 +4,8 @@ library(png)
 
 # Get current file path
 CURR_FILE_PATH <- getwd()
+
+#solo per il pc di federico
 CURR_FILE_PATH<-paste0(CURR_FILE_PATH,"/GitHub/DataScienceHomeworks/Homework1")
 
 
@@ -18,7 +20,7 @@ nodedir <- "R62-M0-N0_output-100"
 node <- substr(nodedir, 1, 9)
 
 path<-paste0(CURR_FILE_PATH,"/ffdatools/tuples-nodes/",nodedir,"/interarrivals.txt", sep="")
-vis_path<-paste(CURR_FILE_PATH,"/Visualizations/Nodes",sep="")
+vis_path<-paste(CURR_FILE_PATH,"/Visualizations/Nodes/",sep="")
 interarrivals<-read.delim(path,header = FALSE)
 
 #Calcolo ecdf
