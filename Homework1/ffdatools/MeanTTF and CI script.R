@@ -36,14 +36,14 @@ find_confidence_interval <- function(my_list, alpha) {
 ##########FINE ROBA AGGIUNTA#############
 
 
-interarrivals<-read.delim(paste0(cw,"/tuples-CSTest-250/interarrivals.txt"))
+interarrivals<-read.delim(paste0(cw,"/ffdatools/tuples-bglsep_1-120/interarrivals.txt"),header = FALSE)
 
 # Usa i dati da interarrivals
 data <- interarrivals
 
 # Calcola la media e la deviazione standard
-mean_time <- mean(data$X1, na.rm = TRUE)
-std_dev <- sd(data$X1, na.rm = TRUE)
+mean_time <- mean(data$V1, na.rm = TRUE)
+std_dev <- sd(data$V1, na.rm = TRUE)
 
 ##########ROBA AGGIUNTA#############
 # Calcolo manuale di intervalli di confidenza.
@@ -55,8 +55,8 @@ std_dev <- sd(data$X1, na.rm = TRUE)
 #processed_data <- lapply(processed_data, mean)
 #processed_data <- unlist(as.list(t(processed_data)))
 
-find_confidence_interval(data$X17508,0.05)
-find_confidence_interval(data$X17508,0.10)
+find_confidence_interval(data$V1,0.05)
+find_confidence_interval(data$V1,0.10)
 ##########FINE ROBA AGGIUNTA#############
 
 # Step 3: Recuperare dalla tabella della teoria lo Z(1-alpha) desiderato per 90% e 95% per samples da 30 elementi
