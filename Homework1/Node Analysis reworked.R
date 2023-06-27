@@ -62,6 +62,9 @@ for (i in 1:length(node_dirs)) {
   interarrivals<-read.delim(path,header = FALSE)
   vis_path<-paste0(vis_path_node,"Reliability modelling/",sep="")
   
+  data<-interarrivals
+  find_confidence_interval(data$V1,0.05)
+  find_confidence_interval(data$V1,0.10)
   
   if (!dir.exists(vis_path)) {
     dir.create(vis_path, recursive = TRUE)
