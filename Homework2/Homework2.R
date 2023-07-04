@@ -6,6 +6,12 @@ library(factoextra)
 
 
 ###TASK 1###
+execute_kmeans <- function(data, k=4) {
+  fit <- kmeans(data, k)
+  plot(data, col=fit$cluster+1, pch=16)
+  points(fit$centers, pch=7, col="black")
+}
+
 #bisogna eseguire hclust e kmeans sui dati di partenza, produrre dendrogramma,
 #analisi di sensibilità e confrontare i due risultati
 
@@ -19,18 +25,20 @@ plots<-paste0(path_homework,"/Visualizations/")
 #import dei dati da flows1.csv
 flows<-read.csv(paste0(path_homework,"flows1.csv"),header = TRUE)
 
+
 ####K-MEANS##########
 #analisi di sensibilità kmeans
+
 tss<-seq(1,10,1) 
 for ( i in 1:10) tss[i] <- kmeans(flows,i)$tot.withinss
-
-png(filename = paste0(plots,"Task1 - Sensibility analysis kmeans.png"),width = 1000,height = 800)
-plot ( tss ,main=title("Sensibility analysis - kmeans tot.withinss"), type="ol", xlab="k")
+png(filename = paste0(plots, "Task1 - Sensibility analysis kmeans.png"), width = 1000, height = 800)
+plot(tss, main = "Sensibility analysis - kmeans tot.withinss", type = "o", lwd = 1.5, xlab = "k",cex=2, cex.main = 2)
 dev.off()
 
-#kmeans
-fit<-kmeans(flows,4)
-#plot (in realtà non so se si può plottare qualcosa, abbiamo un sacco di features non so come fare)
+png(filename = paste0(plots, "Task1 - kmeans.png"), width = 1000, height = 800)
+execute_kmeans(flows,4)
+dev.off()
+
 
 
 ####HCLUST#######
@@ -38,7 +46,6 @@ fit<-kmeans(flows,4)
 d<-dist(flows,method = "euclidean")
 fit<-hclust(d,method="ward.D")
 
-#plot, esce male perché è GROSSO
 png(filename = paste0(plots,"Task1 - hclust plot.png"), width = 1000, height = 800)
 plot(fit, labels = FALSE) # ruota i nomi dell'asse x di 90 gradi
 groups <- cutree(fit, k=4) 
@@ -72,17 +79,66 @@ dev.off()
 
 ###TASK 2###
 #Usare il package fviz. Le cose seguenti devono essere fatte per scale=TRUE e scale=FALSE e poi confrontare i risultati
+execute_PC <- function(data, scale=TRUE) {
+  PC <- prcomp(data, scale=scale)
+  screeplot(PC, main = paste0("PC with scale=", scale))
+  PC
+}
+plot_variance_explained <- function(pc, percentage_line = 90) {
+  # Calcolo della varianza percentuale spiegata da ogni PC
+  var_exp <- (pc$sdev^2 / sum(pc$sdev^2)) * 100
+  print("Percentuale di varianza spiegata da ogni PC:")
+  print(var_exp)
+  
+  # Calcolo della varianza cumulativa
+  cum_var_exp <- cumsum(var_exp)
+  
+  # Creazione del grafico
+  plot(cum_var_exp, type = "b", xlab = "number of PCs", ylab = "% of variance explained",
+       main = "Percentage of variance explained by PCs", ylim = c(0, 100))
+  
+  # Tracciamento della linea al percentuale specificata
+  abline(h = percentage_line, col = "red", lwd = 2, lty = 2)
+  
+  # Aggiunta dell'annotazione
+  text(x = length(cum_var_exp), y = percentage_line-4, 
+       labels = paste(percentage_line, "% of the variance"), pos = 2, col = "red")
+}
 
-#PCA 
+#UNSCALED
+PC <- prcomp(data, scale=FALSE)
+# Unscaled screeplot
+png(filename = paste0(plots, "Task2 - unscaled screeplot.png"), width = 1000, height = 800)
+screeplot(PC, main = "PC with scale=FALSE")
+dev.off()
+# Unscaled biplot
+png(filename = paste0(plots, "Task2 - unscaled biplot.png"), width = 1000, height = 800)
+fviz_pca_var(PC)
+dev.off()
+#unscaled 
+png(filename = paste0(plots, "Task2 - unscaled PCs variance.png"), width = 1000, height = 800)
+plot_variance_explained(PC,90)
+dev.off()
+#[1] "Percentuale di varianza spiegata da ogni PC:"
+#[1] 9.932418e+01 6.506203e-01 2.201085e-02 3.187339e-03 4.460643e-07 3.933665e-10 5.977741e-12 1.260364e-14
 
-#screeplot
+#SCALED
+PC <- prcomp(data, scale=TRUE)
+# scaled screeplot
+png(filename = paste0(plots, "Task2 - scaled screeplot.png"), width = 1000, height = 800)
+screeplot(PC, main = "PC with scale=TRUE")
+dev.off()
+# Scaled biplot
+png(filename = paste0(plots, "Task2 - scaled biplot.png"), width = 1000, height = 800)
+fviz_pca_var(PC)
+dev.off()
+#scaled 
+png(filename = paste0(plots, "Task2 - scaled PCs variance.png"), width = 1000, height = 800)
+plot_variance_explained(PC,90)
+dev.off()
 
-#biplot
-
-#qualsiasi cosa serva per vedere quanta varianzacoprono le due PC
-
-#qualsiasi cosa serva per vedere quante PC servono per coprire il 90% della varianza
-
+#[1] "Percentuale di varianza spiegata da ogni PC:"
+#[1] 31.9454414 24.2796545 13.4219435 11.8890142 11.0679474  5.3059265  1.1063661  0.9837064
 
 ###TASK 3###
 #Da fare con scale=TRUE.

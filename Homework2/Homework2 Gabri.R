@@ -1,5 +1,7 @@
 CURR_PATH = getwd()
 
+#solo per federico
+CURR_PATH<-paste0(CURR_PATH,"/GitHub/DataScienceHomeworks/Homework2/")
 input_filepath = paste0(CURR_PATH, '/flows/flows1.csv')
 
 data <- read.csv(input_filepath, sep=',', header = TRUE)
@@ -38,11 +40,12 @@ draw_kmeans_analysis <- function(data, l=10) {
   tss
 }
 
-execute_kmeans <- function(data, k=5) {
+execute_kmeans <- function(data, k=4) {
   fit <- kmeans(data, k)
   plot(data, col=fit$cluster+1, pch=16)
   points(fit$centers, pch=7, col="black")
 }
+
 
 draw_dendrogram(data, 4)
 draw_kmeans_analysis(data, 10) # Miglior numerO: 4
