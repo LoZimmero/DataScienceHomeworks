@@ -53,7 +53,7 @@ fit<-hclust(d,method="ward.D")
 
 #plot del dendrogramma
 png(filename = paste0(plots,"Task1 - hclust plot.png"), width = 1000, height = 800)
-plot(fit, labels = FALSE) # ruota i nomi dell'asse x di 90 gradi
+plot(fit, labels = FALSE)
 groups <- cutree(fit, k=4) 
 rect.hclust(fit, k=4, border="red")
 dev.off()
@@ -75,7 +75,7 @@ plot_variance_explained <- function(pc, percentage_line = 90) {
   
   # Creazione del grafico
   plot(cum_var_exp, type = "b", xlab = "number of PCs", ylab = "% of variance explained",
-       main = "Percentage of variance explained by PCs", ylim = c(0, 100))
+       main = "Percentage of variance explained by PCs", ylim = c(0, 100), cex.main = 2)
   
   # Tracciamento della linea al percentuale specificata
   abline(h = percentage_line, col = "red", lwd = 2, lty = 2)
@@ -154,13 +154,13 @@ analyze_var<-function(data,xname,yname,corr,vis_path){
   
   #scatterplot
   png(filename = paste0(vis_path, "Task3 - Scatterplot of ",xname," - ",yname," (",corr,").png"), width = 1000, height = 800)
-  plot(x,y,main=paste0("Scatterplot of ",xname," - ",yname," (",corr,")"),xlab=xname,ylab=yname)
+  plot(x,y,main=paste0("Scatterplot of ",xname," - ",yname," (",corr,")"),xlab=xname,ylab=yname, cex.main = 2)
   dev.off()
   
   #model fitting
   if (corr != "uncorrelated") {
     png(filename = paste0(vis_path, "Task3 - Linear regression model for ",xname," - ",yname," (",corr,").png"), width = 1000, height = 800)
-    plot(x,y,main=paste0("Linear regression model for ",xname," - ",yname," (",corr,")"),xlab=xname,ylab=yname)
+    plot(x,y,main=paste0("Linear regression model for ",xname," - ",yname," (",corr,")"),xlab=xname,ylab=yname, cex.main = 2)
     model<-lm(y ~ x)
     abline(model,col="blue")
     print(paste0("R squared for ",xname," - ",yname," regression model: ",summary(model)$r.squared))
@@ -195,7 +195,7 @@ analyze_var(flows, "Total.Length.of.Bwd.Packet", "Total.Fwd.Packet", "correlated
 ############
 ###TASK 4###
 ############
-scale=TRUE
+scale=FALSE
 PC <- prcomp(data, scale=scale)
 # Get the first two principal components
 PC1 <- PC$x[,1]
@@ -216,26 +216,26 @@ dev.off()
 k=4
 png(filename = paste0(plots,"Task4 scale=",scale,"- Kmeans with k=",k,".png"), width = 1000, height = 800)
 fit <- kmeans(pc_df, k)
-plot(main=paste0("Kmeans with k=",k," and scale=",scale),pc_df, col=fit$cluster+1, pch=16)
+plot(main=paste0("Kmeans with k=",k," and scale=",scale),pc_df, col=fit$cluster+1, pch=16, cex.main = 2)
 points(fit$centers, pch=7, col="black")
 dev.off()
 
 png(filename = paste0(plots,"Task4 scale=",scale,"- Kmeans with k=",k," (zoomed).png"), width = 1000, height = 800)
 fit <- kmeans(pc_df, k)
-plot(main=paste0("Kmeans with k=",k," (zoomed, scale=",scale,")"),pc_df, col=fit$cluster+1, pch=16, xlim = c(-4,4), ylim = c(-5,2))
+plot(main=paste0("Kmeans with k=",k," (zoomed, scale=",scale,")"),pc_df, col=fit$cluster+1, pch=16, xlim = c(-4,4), ylim = c(-5,2), cex.main = 2)
 points(fit$centers, pch=7, col="black")
 dev.off()
 
 k=6
 png(filename = paste0(plots,"Task4 scale=",scale,"- Kmeans with k=",k,".png"), width = 1000, height = 800)
 fit <- kmeans(pc_df, k)
-plot(main=paste0("Kmeans with k=",k," and scale=",scale),pc_df, col=fit$cluster+1, pch=16)
+plot(main=paste0("Kmeans with k=",k," and scale=",scale),pc_df, col=fit$cluster+1, pch=16, cex.main = 2)
 points(fit$centers, pch=7, col="black")
 dev.off()
 
 png(filename = paste0(plots,"Task4 scale=",scale,"- Kmeans with k=",k," (zoomed).png"), width = 1000, height = 800)
 fit <- kmeans(pc_df, k)
-plot(main=paste0("Kmeans with k=",k," (zoomed, scale=",scale,")"),pc_df, col=fit$cluster+1, pch=16, xlim = c(-4,4), ylim = c(-5,2))
+plot(main=paste0("Kmeans with k=",k," (zoomed, scale=",scale,")"),pc_df, col=fit$cluster+1, pch=16, xlim = c(-4,4), ylim = c(-5,2), cex.main = 2)
 points(fit$centers, pch=7, col="black")
 dev.off()
 
@@ -245,13 +245,13 @@ d<-dist(pc_df,method = "euclidean")
 fit<-hclust(d,method="ward.D")
 
 png(filename = paste0(plots,"Task4 scale=",scale,"- hclust plot with k=4.png"), width = 1000, height = 800)
-plot(main=paste0("Kmeans with k=4 and scale=",scale),fit, labels = FALSE) 
+plot(main=paste0("Kmeans with k=4 and scale=",scale),fit, labels = FALSE, cex.main = 2) 
 groups <- cutree(fit, k=4) 
 rect.hclust(fit, k=4, border="red")
 dev.off()
 
 png(filename = paste0(plots,"Task4 scale=",scale,"- hclust plot with k=6.png"), width = 1000, height = 800)
-plot(main=paste0("Kmeans with k=6 and scale=",scale),fit, labels = FALSE) 
+plot(main=paste0("Kmeans with k=6 and scale=",scale),fit, labels = FALSE, cex.main = 2) 
 groups <- cutree(fit, k=6) 
 rect.hclust(fit, k=6, border="red")
 dev.off()
