@@ -223,6 +223,8 @@ dev.off()
 png(filename = paste0(plots,"Task4 scale=",scale,"- Kmeans with k=",k," (zoomed).png"), width = 1000, height = 800)
 fit <- kmeans(pc_df, k)
 plot(main=paste0("Kmeans with k=",k," (zoomed, scale=",scale,")"),pc_df, col=fit$cluster+1, pch=16, xlim = c(-4,4), ylim = c(-5,2), cex.main = 2)
+#scale=FALSE
+#plot(main=paste0("Kmeans with k=",k," (zoomed, scale=",scale,")"),pc_df, col=fit$cluster+1, pch=16, xlim = c(-4000000000,200000000), ylim = c(-100000000,100000000), cex.main = 2)
 points(fit$centers, pch=7, col="black")
 dev.off()
 
