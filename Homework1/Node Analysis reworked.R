@@ -1,6 +1,7 @@
 ##Qua si gira lo script per generare interarrivals
 install.packages("png")
 library(png)
+library(fmsb)
 
 # Specifica i dettagli dei nodi
 node_dirs <- c("R62-M0-N0_output-100", "R62-M0-N4_output-100", "R62-M0-NC_output-100","R63-M1-N0_output-100","R63-M1-N8_output-100","R63-M1-NC_output-100")
@@ -36,6 +37,15 @@ for (i in 1:length(node_dirs)) {
   if (!dir.exists(vis_path)) {
     dir.create(vis_path, recursive = TRUE)
   }
+  
+  print("MEAN")
+  print(mean(interarrivals$V1))
+  print("MEDIAN")
+  print(median(interarrivals$V1))
+  print("SD")
+  print(sd(interarrivals$V1))
+  print("SIQR")
+  print(SIQR(interarrivals$V1))
   
   
   #Calcolo ecdf
@@ -117,10 +127,15 @@ for (i in 1:length(node_dirs)) {
   dev.off()
   
   ##tets di ks
+  print(coef(expfit))
   print(ks.test(r,predict(expfit)))
+  print(coef(weifit))
   print(ks.test(r,predict(weifit)))
+  print(coef(hyperexp1))
   print(ks.test(r,predict(hyperexp1)))
+  print(coef(hyperexp2))
   print(ks.test(r,predict(hyperexp2)))
+  print(coef(hyperexp3))
   print(ks.test(r,predict(hyperexp3)))
   
   
