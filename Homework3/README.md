@@ -26,6 +26,21 @@ hadoop jar MapReduce2.jar count.ApplicationDriver /home/studente/input /home/stu
 hadoop jar MapReduce3.jar count.ApplicationDriver /home/studente/input /home/studente/output3 3
 ``` 
 
+### Storm in configurazione LocalCluster
+```bash
+storm jar ./SparkTemperature.jar temperature.MyTopology
+``` 
+
+
+### Storm in configurazione StormSubmitter
+1. Avviare zookeeper eseguendo ```.zkServer start``` dall'interno della cartella *bin* di zookeeper in **/home/studente/zookeeper-3.4.12** 
+
+2. Avviare nimbus con ```storm nimbus```
+
+3. Avviare supervisor con ```storm supervisor```
+
+3. Avviare ui con ```storm ui``` consultabile a 
+
 ## CheatSheet
 per cancellare la cartella di output dal dfs:
 ```bash
