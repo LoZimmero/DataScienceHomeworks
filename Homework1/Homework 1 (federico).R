@@ -102,6 +102,13 @@ lines( t, predict(weifit), col="red", lwd=2)
 
 legend("topright", legend = c("ECDF","expfit", "weifit","hyperexp","hyperexp","hyperexp"), col = c("black","blue", "red","green","magenta","orange"), pch = 1)
 title("Models fitting (zoomed)")
+options(scipen = 999)
+
+print(coef(expfit))
+print(coef(weifit))
+print(coef(hyperexp1))
+print(coef(hyperexp2))
+print(coef(hyperexp3))
 
 ##tets di ks
 ks.test(r,predict(expfit))

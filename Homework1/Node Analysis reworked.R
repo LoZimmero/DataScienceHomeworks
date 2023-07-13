@@ -3,6 +3,36 @@ install.packages("png")
 library(png)
 library(fmsb)
 
+##########
+find_confidence_interval <- function(my_list, alpha) {
+  # R program to find the confidence interval
+  
+  # Calculate the mean of the sample data
+  mean_value <- mean(my_list)
+  
+  # Compute the size
+  n <- length(my_list)
+  
+  # Find the standard deviation
+  standard_deviation <- sd(my_list)
+  
+  # Find the standard error
+  standard_error <- standard_deviation / sqrt(n)
+  degrees_of_freedom = n - 1
+  t_score = qt(p=alpha/2, df=degrees_of_freedom,
+               lower.tail=F
+  )
+  margin_error <- t_score * standard_error
+  
+  # Calculating lower bound and upper bound
+  lower_bound <- mean_value - margin_error
+  upper_bound <- mean_value + margin_error
+  
+  # Print the confidence interval
+  c(lower_bound,upper_bound)
+}
+
+#########
 # Specifica i dettagli dei nodi
 node_dirs <- c("R62-M0-N0_output-100", "R62-M0-N4_output-100", "R62-M0-NC_output-100","R63-M1-N0_output-100","R63-M1-N8_output-100","R63-M1-NC_output-100")
 nodes <- substr(node_dirs, 1, 9)
@@ -33,6 +63,9 @@ for (i in 1:length(node_dirs)) {
   interarrivals<-read.delim(path,header = FALSE)
   vis_path<-paste0(vis_path_node,"Reliability modelling/",sep="")
   
+  data<-interarrivals
+  find_confidence_interval(data$V1,0.05)
+  find_confidence_interval(data$V1,0.10)
   
   if (!dir.exists(vis_path)) {
     dir.create(vis_path, recursive = TRUE)
