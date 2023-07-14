@@ -14,14 +14,10 @@ octdata<-read.delim(octdata_path,header = FALSE)
 plot(octdata$V1,octdata$V2,xlab = "CWIN",ylab = "count",col="blue",type = "ol",xlim = c(0,300),ylim = c(0,600))
 title(main="October data")
 
-nodedata_path = paste(FFDATOOLS, "/counts/tcount-R63-M1-NC_output.txt", sep="")
-nodedata<-read.delim(nodedata_path)
-septdata<-nodedata
-plot(nodedata$CWIN,nodedata$COUNT,xlab = "CWIN",ylab = "count",col="blue",type = "ol",xlim = c(0,300),ylim = c(0,1200))
-title(main="Node R63-M1-NC data")
+##Analisi aggiuntive############
+### Si potrebbe usare la differenza tra un valore di count e il successivo per vedere quando finisce di 
+### variare in maniera significativa
 
-
-### Si potrebbe usare la differenza tra un valore di count e il successivo per vedere quando finisce di variare in maniera significativa
 # calcola la differenza tra i valori successivi di count
 diff.countsept <- -(diff(septdata$COUNT))
 diff.countoct <- -(diff(octdata$V2))
@@ -32,7 +28,7 @@ diff.countoct <- c(diff.countoct,NA)
 
 # crea il grafico
 plot(septdata$CWIN, diff.countsept, xlab = "CWIN", ylab = "difference in count", col="blue", type = "o", xlim = c(0,300), ylim = c(0,300))
-title(main = "Variation in CWIN - R63-M1-NC")
+title(main = "Variation in CWIN - September")
 plot(octdata$V1, diff.countoct, xlab = "CWIN", ylab = "difference in count", col="blue", type = "o", xlim = c(0,300), ylim = c(0,150))
 title(main = "Variation in CWIN - October")
 
@@ -43,9 +39,6 @@ title(main = "Variation in CWIN - October")
 ###importiamo interarrivals
 pathsept<- paste(FFDATOOLS,"/tuples-bglsep_1-120/interarrivals.txt", sep="")
 pathoct<- paste(FFDATOOLS, "/tuples-bgloct_1-100/interarrivals.txt", sep="")
-
-pathnodes<- paste(FFDATOOLS, "/tuples-nodes/R62-M0-N0_output-100/interarrivals.txt", sep="")
-pathsept<-pathnodes
 
 interarrivals<-read.delim(pathsept,header = FALSE)
 interarrivals<-read.delim(pathoct,header = FALSE)
@@ -58,7 +51,6 @@ TTF<-ecdf(interarrivals$V1)
 t<-knots(TTF)
 par(cex=1.3)
 plot(t,TTF(t),col="red",xlim=c(0,50000),type="ol",xlab = "time(s)",ylab = "P ( X<X(t) )")
-title(main="ECDF - R62-M0-N0 interarrivals")
 title(main="ECDF - October interarrivals")
 
 #questa è la reliability empirica
