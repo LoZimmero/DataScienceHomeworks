@@ -71,5 +71,5 @@ def autoencoder():
     evaluatePerformance(outcome, l_test)
     ae.plot_reconstruction_error(x_test, l_test)
 
-#ffnn()
-autoencoder()
+ffnn()
+#autoencoder()
