@@ -1,0 +1,46 @@
+             *** EVALUATION RESULTS ***
+
+        Coverage by attack (positive classes)
+    FN         TP     recall
+    12        192      0.941              DoS GoldenEye
+     2       4624      1.000                   DoS Hulk
+     2         54      0.964           DoS Slowhttptest
+     4        110      0.965              DoS Slowloris
+  ----       ----
+    20       4980      total
+
+Confusion matrix:
+                                prediction
+                     | BENIGN (neg.) |  ATTACK (pos.)
+       --------------|---------------|---------------
+       BENIGN (neg.) | TN =     4764 | FP =       236
+label  --------------|---------------|---------------
+       ATTACK (pos.) | FN =       20 | TP =      4980
+       --------------|---------------|---------------
+Metrics:
+R = 0.996  P = 0.955  F1 score = 0.975  FPR = 0.047
+313/313 [==============================] - 0s 504us/step
+313/313 [==============================] - 0s 553us/step
+
+             *** EVALUATION RESULTS ***
+
+        Coverage by attack (positive classes)
+    FN         TP     recall
+     9        195      0.956              DoS GoldenEye
+     3       4623      0.999                   DoS Hulk
+     6         50      0.893           DoS Slowhttptest
+     7        107      0.939              DoS Slowloris
+  ----       ----
+    25       4975      total
+
+Confusion matrix:
+                                prediction
+                     | BENIGN (neg.) |  ATTACK (pos.)
+       --------------|---------------|---------------
+       BENIGN (neg.) | TN =     4782 | FP =       218
+label  --------------|---------------|---------------
+       ATTACK (pos.) | FN =       25 | TP =      4975
+       --------------|---------------|---------------
+Metrics:
+R = 0.995  P = 0.958  F1 score = 0.976  FPR = 0.044
+313/313 [==============================] - 0s 545us/step
