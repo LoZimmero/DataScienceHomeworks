@@ -31,7 +31,7 @@ class FeedforwardNN():
 
         # Costruiamo hidden layer
         hidden_layer = Dense(16,activation='tanh',kernel_initializer=RandomNormal())(input_layer)  # Con quesata sintassi sitamo dicendo che colleghiamo questo layer a input_layer
-        hidden_layer_2 = Dense(16,activation='tanh',kernel_initializer=RandomNormal())(hidden_layer)  # Con quesata sintassi sitamo dicendo che colleghiamo questo layer a input_layer
+        hidden_layer_2 = Dense(16,activation='tanh',kernel_initializer=RandomNormal())(hidden_layer)
         hidden_layer_3 = Dense(2, activation='relu', kernel_initializer=RandomNormal())(hidden_layer_2)
         output_layer = Activation(activation='softmax')(hidden_layer_3)
 
@@ -47,7 +47,7 @@ class FeedforwardNN():
         # Definiamo epoche e batch_size...
         epochs = 100
         batch_size = 256
-        validation_split = 0.01  # Riserviamo il 0.1% del training set per validare(?)
+        validation_split = 0.01  # Riserviamo il 0.1% del training set per validare
 
         # Settaggio dell'ottimizzatore e della Loss function
         self.classifier.compile(

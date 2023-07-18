@@ -46,7 +46,7 @@ class FeedforwardNN():
         # Definiamo epoche e batch_size...
         epochs = 100
         batch_size = 256
-        validation_split = 0.01  # Riserviamo il 0.1% del training set per validare(?)
+        validation_split = 0.01  # Riserviamo il 0.1% del training set per validare
 
         # Settaggio dell'ottimizzatore e della Loss function
         self.classifier.compile(

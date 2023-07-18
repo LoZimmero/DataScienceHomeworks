@@ -70,14 +70,13 @@ plot_variance_explained <- function(pc, percentage_line = 90) {
   print("Percentuale di varianza spiegata da ogni PC:")
   print(var_exp)
   
-  # Calcolo della varianza cumulativa
   cum_var_exp <- cumsum(var_exp)
   
   # Creazione del grafico
   plot(cum_var_exp, type = "b", xlab = "number of PCs", ylab = "% of variance explained",
        main = "Percentage of variance explained by PCs", ylim = c(0, 100), cex.main = 2)
   
-  # Tracciamento della linea al percentuale specificata
+  # Tracciamento della linea alla percentuale specificata
   abline(h = percentage_line, col = "red", lwd = 2, lty = 2)
   
   # Aggiunta dell'annotazione
@@ -197,7 +196,6 @@ analyze_var(flows, "Total.Length.of.Bwd.Packet", "Total.Fwd.Packet", "correlated
 ############
 scale=FALSE
 PC <- prcomp(data, scale=scale)
-# Get the first two principal components
 PC1 <- PC$x[,1]
 PC2 <- PC$x[,2]
 pc_df <- data.frame(PC1 = PC1, PC2 = PC2)
@@ -223,6 +221,7 @@ dev.off()
 png(filename = paste0(plots,"Task4 scale=",scale,"- Kmeans with k=",k," (zoomed).png"), width = 1000, height = 800)
 fit <- kmeans(pc_df, k)
 plot(main=paste0("Kmeans with k=",k," (zoomed, scale=",scale,")"),pc_df, col=fit$cluster+1, pch=16, xlim = c(-4,4), ylim = c(-5,2), cex.main = 2)
+
 #scale=FALSE
 #plot(main=paste0("Kmeans with k=",k," (zoomed, scale=",scale,")"),pc_df, col=fit$cluster+1, pch=16, xlim = c(-4000000000,200000000), ylim = c(-100000000,100000000), cex.main = 2)
 points(fit$centers, pch=7, col="black")

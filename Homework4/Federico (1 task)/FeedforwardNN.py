@@ -20,8 +20,7 @@ from keras.layers import Input, Dense, Activation
 from keras import regularizers, initializers
 from keras.utils import plot_model
 from keras.layers import Dropout
-import pydot
-import graphviz
+
 
 
 class FeedforwardNN():
@@ -52,7 +51,7 @@ class FeedforwardNN():
         # Definiamo epoche e batch_size...
         epochs = 200
         batch_size = 512
-        validation_split = 0.01  # Riserviamo il 0.1% del training set per validare(?)
+        validation_split = 0.01  # Riserviamo il 0.1% del training set per validare
 
         # Settaggio dell'ottimizzatore e della Loss function
         self.classifier.compile(
@@ -96,5 +95,3 @@ class FeedforwardNN():
         # print(outcome)
         return outcome
 
-    def plot(self, path):
-        plot_model(self.classifier, to_file=path, show_shapes=True)

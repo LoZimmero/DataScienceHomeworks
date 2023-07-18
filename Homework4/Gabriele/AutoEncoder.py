@@ -32,7 +32,7 @@ class AutoEncoder():
         hidden_layer = Dense(64, activation='relu') (input_layer)
         hidden_layer = Dense(32, activation='relu') (hidden_layer)    # Bottleneck
         hidden_layer = Dense(64, activation='relu') (hidden_layer)
-        output_layer = Dense(input_dim, activation='tanh') (hidden_layer)  # Qui in homework si possono fare varie prove (es. su activation)
+        output_layer = Dense(input_dim, activation='tanh') (hidden_layer)
 
         self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
 
@@ -44,7 +44,7 @@ class AutoEncoder():
         # NB: nella scelta di questi parametri bisogna trovare un compromesso tra epochs e batch_size.
         epochs = 100
         batch_size = 256
-        validation_split = 0.1  # Da 0.1 a 0.15
+        validation_split = 0.1
 
         # Qui per la funzione di loss non usiamo categorical_crossentropy perché m
         # non è adeguata al dominio. Usiamo invece minimun square difference perché si
