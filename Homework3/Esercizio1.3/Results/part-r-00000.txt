@@ -1,0 +1,1 @@
+minvisits	400
