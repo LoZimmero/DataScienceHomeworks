@@ -4,8 +4,7 @@ library(tidyr)
 # Importa interarrivals
 cw <- getwd()
 
-##########ROBA AGGIUNTA#############
-
+########## Teorema del limite centrale #############
 find_confidence_interval <- function(my_list, alpha) {
   # R program to find the confidence interval
   
@@ -33,7 +32,7 @@ find_confidence_interval <- function(my_list, alpha) {
   # Print the confidence interval
   c(lower_bound,upper_bound)
 }
-##########FINE ROBA AGGIUNTA#############
+#######################
 
 
 interarrivals<-read.delim(paste0(cw,"/ffdatools/tuples-bglsep_1-120/interarrivals.txt"),header = FALSE)
@@ -45,21 +44,11 @@ data <- interarrivals
 mean_time <- mean(data$V1, na.rm = TRUE)
 std_dev <- sd(data$V1, na.rm = TRUE)
 
-##########ROBA AGGIUNTA#############
-# Calcolo manuale di intervalli di confidenza.
-# Step 1: Dividere i dati in liste di gruppi di 30 elementi
-#n <- length(data$X17508)
-#k <- 30
-#processed_data <- split(data$X17508, rep(1:ceiling(n/k), each=k)[1:n])
-# Step 2: Calcolare la media per ogni gruppo di 30 elementi
-#processed_data <- lapply(processed_data, mean)
-#processed_data <- unlist(as.list(t(processed_data)))
 
 find_confidence_interval(data$V1,0.05)
 find_confidence_interval(data$V1,0.10)
-##########FINE ROBA AGGIUNTA#############
 
-# Step 3: Recuperare dalla tabella della teoria lo Z(1-alpha) desiderato per 90% e 95% per samples da 30 elementi
+# Step 3: Recuperare dalla tabella lo Z(1-alpha) desiderato per 90% e 95% per samples da 30 elementi in su
 #z90 <- 1.687
 #z95 <- 2.042
 

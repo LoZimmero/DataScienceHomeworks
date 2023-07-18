@@ -1,4 +1,6 @@
-##Qua si gira lo script per generare interarrivals
+##Prima si gira lo script per generare interarrivals
+
+##Script inutilizzato nella versione finale
 install.packages("png")
 library(png)
 library(boot)

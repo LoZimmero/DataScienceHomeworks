@@ -1,4 +1,4 @@
-##Qua si gira lo script per generare interarrivals
+##Prima si gira lo script per generare interarrivals
 install.packages("png")
 library(png)
 library(fmsb)
@@ -33,7 +33,7 @@ find_confidence_interval <- function(my_list, alpha) {
 }
 
 #########
-# Specifica i dettagli dei nodi
+# Specifica i path dei nodi
 node_dirs <- c("R62-M0-N0_output-100", "R62-M0-N4_output-100", "R62-M0-NC_output-100","R63-M1-N0_output-100","R63-M1-N8_output-100","R63-M1-NC_output-100")
 nodes <- substr(node_dirs, 1, 9)
 # Get current file path
@@ -42,13 +42,11 @@ CURR_FILE_PATH <- getwd()
 #solo per il pc di federico
 CURR_FILE_PATH<-paste0(CURR_FILE_PATH,"/GitHub/DataScienceHomeworks/Homework1")
 
-
-# method paste() to join strings. MUST use sep="" to avoid adding empty space between strings
 FFDATOOLS <- paste(CURR_FILE_PATH, "/ffdatools", sep="")
 
 all_data <- list()
 
-#Serve a levare la notazione scientifica
+#Serve a levare la notazione scientifica (opz.)
 options(scipen = 5)
 
 # Itera sui nodi
@@ -59,6 +57,7 @@ for (i in 1:length(node_dirs)) {
   # Specifica il percorso del file dati
   path <- paste0(CURR_FILE_PATH,"/ffdatools/tuples-nodes/", nodedir, "/interarrivals.txt")
   
+  #path per i grafici
   vis_path_node<-paste0(CURR_FILE_PATH,"/Visualizations/Nodes/",node,"/",sep="")
   interarrivals<-read.delim(path,header = FALSE)
   vis_path<-paste0(vis_path_node,"Reliability modelling/",sep="")
@@ -106,7 +105,6 @@ for (i in 1:length(node_dirs)) {
   dev.off()
   
   #sovrapponiamo il modello ai punti sperimentali
-  # Ripristino dei parametri di grafica predefiniti
   
   plot_title<-paste0("Node ",node," - Hyperexponential variations")
   png(filename=paste0(vis_path,plot_title,'.png'),width = 1000,height = 800)
@@ -118,12 +116,12 @@ for (i in 1:length(node_dirs)) {
   
   hyperexp1 <- nls(r~0.5*exp(-(l1*t))+0.5*exp(-(l2*t)), start = list(
     l1=1/mean(interarrivals$V1),
-    l2=0.1/mean(interarrivals$V1) # Mettiamo il secondo lambda 1/10 del primo
+    l2=0.1/mean(interarrivals$V1) 
   ))
   
   hyperexp2 <- nls(r~0.3*exp(-(l1*t))+0.7*exp(-(l2*t)), start = list(
     l1=1/mean(interarrivals$V1),
-    l2=0.1/mean(interarrivals$V1) # Mettiamo il secondo lambda 1/10 del primo
+    l2=0.1/mean(interarrivals$V1) 
   ))
   
   ##temporary fix, doesn't work with october and september model parameters
@@ -225,13 +223,10 @@ for (i in 1:length(node_dirs)) {
   print(paste("Summary for Node ", node))
   print(summary(interarrivals$V1))
   
-  # Calcola la media
   mean_time <- mean(interarrivals$V1)
   
-  # Calcola la mediana
   median_time <- median(interarrivals$V1)
   
-  # Calcola la deviazione standard
   sd_time <- sd(interarrivals$V1)
   
   vis_path<-paste0(vis_path_node,"interarrival analysis/",sep="")
@@ -241,7 +236,7 @@ for (i in 1:length(node_dirs)) {
     dir.create(vis_path, recursive = TRUE)
   }
   
-  # Crea un istogramma con più bin
+  # Crea un istogramma
   png(filename = paste0(vis_path,"Node ", node, " - Interarrival times.png"),width = 1000,height = 800)
   hist(interarrivals$V1, breaks = 30, main = paste("Interarrival times - Node ", node), freq = FALSE,
        xlab = "Interarrival Time (seconds)",

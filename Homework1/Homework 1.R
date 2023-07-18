@@ -1,7 +1,6 @@
 # Get current file path
 CURR_FILE_PATH <- getwd()
 
-# method paste() to join strings. MUST use sep="" to avoid adding empty space between strings
 FFDATOOLS <- paste(CURR_FILE_PATH, "/ffdatools", sep="")
 
 septdata_path = paste(FFDATOOLS, "/counts/tcount-bglsep_1.txt", sep="")
@@ -14,7 +13,7 @@ octdata<-read.delim(octdata_path,header = FALSE)
 plot(octdata$V1,octdata$V2,xlab = "CWIN",ylab = "count",col="blue",type = "ol",xlim = c(0,300),ylim = c(0,600))
 title(main="October data")
 
-##Analisi aggiuntive############
+##Analisi aggiuntive (inutilizzato nella versione finale) ############
 ### Si potrebbe usare la differenza tra un valore di count e il successivo per vedere quando finisce di 
 ### variare in maniera significativa
 
@@ -34,7 +33,7 @@ title(main = "Variation in CWIN - October")
 
 ### fine parte che non c'è nell'homework ###
 
-##Qua si gira lo script per generare interarrivals
+##Qua si esegue lo script per generare interarrivals
 
 ###importiamo interarrivals
 pathsept<- paste(FFDATOOLS,"/tuples-bglsep_1-120/interarrivals.txt", sep="")
@@ -43,7 +42,7 @@ pathoct<- paste(FFDATOOLS, "/tuples-bgloct_1-100/interarrivals.txt", sep="")
 interarrivals<-read.delim(pathsept,header = FALSE)
 interarrivals<-read.delim(pathoct,header = FALSE)
 
-#Calkcolo ecdf
+#Calcolo ecdf
 TTF<-ecdf(interarrivals$V1)
 
 #knots ci restituisce i punti in cui una certa funzione è stata valutata
@@ -68,12 +67,12 @@ weifit<-nls(r~exp(-(l*t)^a), start = list(l=1/mean(interarrivals$V1), a=0.9))
 
 hyperexp1 <- nls(r~0.5*exp(-(l1*t))+0.5*exp(-(l2*t)), start = list(
   l1=1/mean(interarrivals$V1),
-  l2=0.1/mean(interarrivals$V1) # Mettiamo il secondo lambda 1/10 del primo
+  l2=0.1/mean(interarrivals$V1) 
 ))
 
 hyperexp2 <- nls(r~0.3*exp(-(l1*t))+0.7*exp(-(l2*t)), start = list(
   l1=1/mean(interarrivals$V1),
-  l2=0.1/mean(interarrivals$V1) # Mettiamo il secondo lambda 1/10 del primo
+  l2=0.1/mean(interarrivals$V1) 
 ))
 
 hyperexp3 <- nls(r~0.5*exp(-(l1*t))+0.3*exp(-(l2*t))+0.2*exp(-(l3*t)), start = list(
@@ -153,14 +152,13 @@ for (i in 1:length(models)) {
 
 
 ### Analisi su interarrivals ########################
+
 # Carica i dati
 interarrivals_sept<-read.delim(pathsept,header = FALSE)
 interarrivals_oct<-read.delim(pathoct,header = FALSE)
 
-# Crea una lista con i nomi dei mesi
 months <- list("September" = interarrivals_sept$V1, "October" = interarrivals_oct$V1)
 
-# Itera sui mesi
 for(month in names(months)){
   data <- months[[month]]
   
@@ -168,16 +166,13 @@ for(month in names(months)){
   print(paste("Summary for", month))
   print(summary(data))
   
-  # Calcola la media
   mean_time <- mean(data)
   
-  # Calcola la mediana
   median_time <- median(data)
   
-  # Calcola la deviazione standard
   sd_time <- sd(data)
   
-  # Crea un istogramma con più bin
+  # Crea un istogramma
   png(filename = paste0("C:\\Users\\fonde\\Documents\\GitHub\\DataScienceHomeworks\\Homework1\\Visualizations\\Interarrival times - ", month, ".png"))
   hist(data, breaks = 30, main = paste("Interarrival times -", month),freq = FALSE,
        xlab = "Interarrival Time (seconds)",
